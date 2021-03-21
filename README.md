@@ -1,4 +1,4 @@
-# Guya.moe
+# Shamiko.moe
 Generalized manga reading framework. Adapted for Kaguya-sama manga, but can be used generically for any and all manga.
 
 Testing Supported By<br/>
