@@ -24,7 +24,8 @@ CANONICAL_ROOT_DOMAIN = "localhost:8000"
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ["localhost", '*']
+# Remove '*' before full release 
 
 SITE_ID = 1
 
