@@ -112,7 +112,7 @@ if __name__ == "__main__":
         ]
 
     os.system("python manage.py makemigrations")
-    result = subprocess.check_output("python manage.py migrate", shell=True, text=True)
+    result = subprocess.check_output("python manage.py migrate", shell=True, universal_newlines=True)
 
     if "OK" in result or changed:
         os.system(f"python manage.py loaddata {FIXTURES_PATH}")
