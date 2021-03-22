@@ -34,10 +34,10 @@ def admin_home(request):
 @decorator_from_middleware(OnlineNowMiddleware)
 def home(request):
     home_screen_series = {
-        "Kaguya-Wants-To-Be-Confessed-To": "",
+        "The-Demon-Girl-Next-Door": "",
     }
     for series in home_screen_series:
-        if series == "Kaguya-Wants-To-Be-Confessed-To":
+        if series == "The-Demon-Girl-Next-Door":
             vols = Volume.objects.filter(series__slug=series).order_by("volume_number")
         else:
             vols = Volume.objects.filter(series__slug=series).order_by("-volume_number")
@@ -50,28 +50,16 @@ def home(request):
                     f"/media/{filename}_blur.{ext}",
                 ]
                 break
-    data = series_page_data("Kaguya-Wants-To-Be-Confessed-To")
+    data = series_page_data("The-Demon-Girl-Next-Door")
     return render(
         request,
         "homepage/home.html",
         {
             "abs_url": request.build_absolute_uri(),
             "main_series_data": data,
-            "main_cover": home_screen_series["Kaguya-Wants-To-Be-Confessed-To"][0],
-            "main_cover_webp": home_screen_series["Kaguya-Wants-To-Be-Confessed-To"][1],
-            "main_cover_blur": home_screen_series["Kaguya-Wants-To-Be-Confessed-To"][2],
-            "4koma_cover": home_screen_series["We-Want-To-Talk-About-Kaguya"][0],
-            "4koma_cover_webp": home_screen_series["We-Want-To-Talk-About-Kaguya"][1],
-            "4koma_cover_blur": home_screen_series["We-Want-To-Talk-About-Kaguya"][2],
-            "doujin_cover": home_screen_series[
-                "Kaguya-Wants-To-Be-Confessed-To-Official-Doujin"
-            ][0],
-            "doujin_cover_webp": home_screen_series[
-                "Kaguya-Wants-To-Be-Confessed-To-Official-Doujin"
-            ][1],
-            "doujin_cover_blur": home_screen_series[
-                "Kaguya-Wants-To-Be-Confessed-To-Official-Doujin"
-            ][2],
+            "main_cover": home_screen_series["The-Demon-Girl-Next-Door"][0],
+            "main_cover_webp": home_screen_series["The-Demon-Girl-Next-Door"][1],
+            "main_cover_blur": home_screen_series["The-Demon-Girl-Next-Door"][2],
             "relative_url": "",
             "template": "home",
             "version_query": settings.STATIC_VERSION,
@@ -97,14 +85,14 @@ def about(request):
 @decorator_from_middleware(ForwardParametersMiddleware)
 def main_series_chapter(request, chapter):
     return redirect(
-        "reader-manga-chapter", "Kaguya-Wants-To-Be-Confessed-To", chapter, "1"
+        "reader-manga-chapter", "The-Demon-Girl-Next-Door", chapter, "1"
     )
 
 
 @decorator_from_middleware(ForwardParametersMiddleware)
 def main_series_page(request, chapter, page):
     return redirect(
-        "reader-manga-chapter", "Kaguya-Wants-To-Be-Confessed-To", chapter, page
+        "reader-manga-chapter", "The-Demon-Girl-Next-Door", chapter, page
     )
 
 
@@ -114,12 +102,12 @@ def latest(request):
     if not latest_chap:
         latest_chap = (
             Chapter.objects.order_by("-chapter_number")
-            .filter(series__slug="Kaguya-Wants-To-Be-Confessed-To")[0]
+            .filter(series__slug="The-Demon-Girl-Next-Door")[0]
             .slug_chapter_number()
         )
         cache.set("latest_chap", latest_chap, 3600 * 96)
     return redirect(
-        "reader-manga-chapter", "Kaguya-Wants-To-Be-Confessed-To", latest_chap, "1"
+        "reader-manga-chapter", "The-Demon-Girl-Next-Door", latest_chap, "1"
     )
 
 
@@ -131,14 +119,14 @@ def random(request):
             ch.slug_chapter_number()
             for ch in (
                 Chapter.objects.order_by("-chapter_number").filter(
-                    series__slug="Kaguya-Wants-To-Be-Confessed-To"
+                    series__slug="The-Demon-Girl-Next-Door"
                 )
             )
         ]
         cache.set("random_opts", random_opts, 3600 * 96)
     return redirect(
         "reader-manga-chapter",
-        "Kaguya-Wants-To-Be-Confessed-To",
+        "The-Demon-Girl-Next-Door",
         r.choice(random_opts),
         "1",
     )
@@ -152,7 +140,7 @@ def random(request):
 #         #for _ in range(0, 10):
 
 #         cache.set("latest_chap", latest_chap, 3600 * 96)
-#     return redirect('reader-manga-chapter', "Kaguya-Wants-To-Be-Confessed-To", latest_chap, "1")
+#     return redirect('reader-manga-chapter', "The-Demon-Girl-Next-Door", latest_chap, "1")
 
 
 def handle404(request, exception):
