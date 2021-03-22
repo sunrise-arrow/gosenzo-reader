@@ -15,17 +15,17 @@ Testing Supported By<br/>
 ## Install
 1. Create a venv for siteproject in your home directory.
 ```
-virtualenv ~/siteproject
+virtualenv ~/mywebapp
 ```
 
-2. Clone siteproject's source code into the venv.
+2. Clone gosenzo-reader's source code into the venv.
 ```
-git clone https://github.com/appu1232/siteproject ~/siteproject/app
+git clone https://github.com/sunrise-arrow/gosenzo-reader.git ~/siteproject/app
 ```
 
 3. Activate the venv.
 ```
-cd ~/siteproject/app && source ../bin/activate
+cd ~/mywebapp/app && source ../bin/activate
 ```
 
 4. Install siteproject's dependencies.
