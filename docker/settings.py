@@ -1,6 +1,7 @@
 from guyamoe.settings.base import *
 
-ALLOWED_HOSTS = ["web", "localhost"]
+ALLOWED_HOSTS = ["web", "localhost", '*']
+#remove wildcard before release
 
 CACHES = {
     "default": {

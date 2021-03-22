@@ -11,6 +11,7 @@ CANONICAL_ROOT_DOMAIN = dev_domain
 DEBUG = False
 
 ALLOWED_HOSTS = [dev_domain, '*']
+#Remove wildcard before release
 
 CANONICAL_SITE_NAME = dev_domain
 
