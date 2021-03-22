@@ -1,6 +1,6 @@
 from guyamoe.settings.base import *
 
-ALLOWED_HOSTS = ["web", "localhost","192.168.0.191"]
+ALLOWED_HOSTS = ["web", "localhost"]
 
 CACHES = {
     "default": {
