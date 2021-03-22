@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
     "www.dog.guya.moe",
     "kuu.guya.moe",
     "www.kuu.guya.moe",
+    "192.168.0.191"
     "localhost",
 ]
 
