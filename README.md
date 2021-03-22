@@ -4,7 +4,7 @@ Generalized manga reading framework. Adapted for Kaguya-sama manga, but can be u
 Testing Supported By<br/>
 <img width="160" src="http://foundation.zurb.com/sites/docs/assets/img/logos/browser-stack.svg" alt="BrowserStack"/>
 
-⚠ **Note:** The install instructions below will not result in a general purpose CMS due to the amount of hardcoded assets in shamikomoe.
+⚠ **Note:** The install instructions below will not result in a general purpose CMS due to the amount of hardcoded assets in siteproject.
 
 ## Prerequisites 
 - git
@@ -13,37 +13,37 @@ Testing Supported By<br/>
 - virtualenv
 
 ## Install
-1. Create a venv for shamikomoe in your home directory.
+1. Create a venv for siteproject in your home directory.
 ```
-virtualenv ~/shamikomoe
+virtualenv ~/siteproject
 ```
 
-2. Clone shamikomoe's source code into the venv.
+2. Clone siteproject's source code into the venv.
 ```
-git clone https://github.com/appu1232/shamikomoe ~/shamikomoe/app
+git clone https://github.com/appu1232/siteproject ~/siteproject/app
 ```
 
 3. Activate the venv.
 ```
-cd ~/shamikomoe/app && source ../bin/activate
+cd ~/siteproject/app && source ../bin/activate
 ```
 
-4. Install shamikomoe's dependencies.
+4. Install siteproject's dependencies.
 ```
 pip3 install -r requirements.txt
 ```
 
 5. Change the value of the `SECRET_KEY` variable to a randomly generated string.
 ```
-sed -i "s|\"o kawaii koto\"|\"$(openssl rand -base64 32)\"|" shamikomoe/settings/base.py
+sed -i "s|\"o kawaii koto\"|\"$(openssl rand -base64 32)\"|" siteproject/settings/base.py
 ```
 
-6. Generate the default assets for shamikomoe.
+6. Generate the default assets for siteproject.
 ```
 python3 init.py
 ```
 
-7. Create an admin user for shamikomoe.
+7. Create an admin user for siteproject.
 ```
 python3 manage.py createsuperuser
 ```

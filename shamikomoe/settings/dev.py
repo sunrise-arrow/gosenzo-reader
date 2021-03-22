@@ -28,7 +28,7 @@ LOGGING = {
             "level": "WARNING",
             "class": "logging.handlers.RotatingFileHandler",
             "formatter": "verbose",
-            "filename": os.path.join(PARENT_DIR, "shamikomoe.log"),
+            "filename": os.path.join(PARENT_DIR, "siteproject.log"),
             "maxBytes": 1024 * 1024 * 100,  # 100 mb
         }
     },
