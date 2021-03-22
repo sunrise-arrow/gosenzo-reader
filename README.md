@@ -1,3 +1,7 @@
+# Branch Infomation
+
+This branch is to remove static and (most) backend mentions of guyamoe
+
 # Shamiko.moe
 Generalized manga reading framework. Adapted for Kaguya-sama manga, but can be used generically for any and all manga.
 
