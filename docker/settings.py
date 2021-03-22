@@ -1,4 +1,4 @@
-from guyamoe.settings.base import *
+from shamikomoe.settings.base import *
 
 ALLOWED_HOSTS = ["web", "localhost", '*']
 #remove wildcard before release
@@ -13,7 +13,7 @@ CACHES = {
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "kaguyamoe",
+        "NAME": "kashamikomoe",
         "USER": "POSTGRES_USER",
         "PASSWORD": "POSTGRES_PASSWORD",
         "HOST": "postgres",
