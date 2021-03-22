@@ -35,8 +35,6 @@ def admin_home(request):
 def home(request):
     home_screen_series = {
         "Kaguya-Wants-To-Be-Confessed-To": "",
-        "We-Want-To-Talk-About-Kaguya": "",
-        "Kaguya-Wants-To-Be-Confessed-To-Official-Doujin": "",
     }
     for series in home_screen_series:
         if series == "Kaguya-Wants-To-Be-Confessed-To":
