@@ -735,7 +735,7 @@ main a {
 	background-image: url('//raw.githubusercontent.com/inorichi/tachiyomi/master/.github/readme-images/app-icon.png');
 }
 .manga-link.sevsea:before {
-	background-image: url('../img/sevsea.png');
+	background-image: url('../img/sevsea.jpg');
 }
 .manga-link.ama:before {
 	background-image: url('../img/ama.png');
