@@ -104,6 +104,7 @@ as time_since_change
         return qs
 
     def time_since_last_update(self, obj):
+        curr_time = datetime.utcnow().replace(tzinfo=timezone.utc)
         if obj.time_since_last_update is not None:
             if type(obj.time_since_last_update) is str:
                 try:
@@ -117,7 +118,6 @@ as time_since_change
                 last_update = last_update.replace(tzinfo=timezone.utc)
             else:
                 last_update = obj.time_since_last_update.replace(tzinfo=timezone.utc)
-            curr_time = datetime.utcnow().replace(tzinfo=timezone.utc)
             time_since_last_update = curr_time - last_update
         else:
             time_since_last_update = curr_time - obj.uploaded_on
