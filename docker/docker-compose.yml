@@ -12,7 +12,7 @@ services:
     volumes:
       - type: bind
         source: ../
-        target: /guya
+        target: /shamiko
     ports:
       - 8000:8000
     environment:
