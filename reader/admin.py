@@ -120,7 +120,7 @@ as time_since_change
                 last_update = obj.time_since_last_update.replace(tzinfo=timezone.utc)
             time_since_last_update = curr_time - last_update
         else:
-            time_since_last_update = curr_time - obj.uploaded_on
+            time_since_last_update = curr_time - curr_time
         days = time_since_last_update.days
         seconds = time_since_last_update.seconds
         hours = seconds // 3600
