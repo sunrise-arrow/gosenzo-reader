@@ -27,8 +27,8 @@ body {
 	background-attachment: fixed;
 	background-position: 50% 10%;
 	background-size: 1500px;
-	background-image: url('/static/img/bg_box.png');
-	background-color:black;
+	/* background-image: url('/static/img/bg_box.png'); */
+	background-color:rgb(255, 255, 255);
 	padding-top: 5em;
 }
 
