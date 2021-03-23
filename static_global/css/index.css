@@ -624,11 +624,9 @@ main a {
 .manga-link.guya:before,
 .manga-link.tachiyom:before,
 .manga-link.after-anime:before,
-.manga-link.viz:before,
+.manga-link.sevsea:before,
 .manga-link.ama:before,
-.manga-link.gp:before,
-.manga-link.yj:before,
-.manga-link.shu:before {
+.manga-link.gp:before {
 	content: "";
 	display: inline-block;
 	width: 1.2em;
@@ -705,7 +703,7 @@ main a {
 	font-size: 1em;
 	border-color: #6db4ff87;
 }
-.manga-link.viz {
+.manga-link.sevsea {
 	border-color: #cc000088;
 }
 .manga-link.ama {
@@ -736,7 +734,7 @@ main a {
 .manga-link.tachiyom:before {
 	background-image: url('//raw.githubusercontent.com/inorichi/tachiyomi/master/.github/readme-images/app-icon.png');
 }
-.manga-link.viz:before {
+.manga-link.sevsea:before {
 	background-image: url('../img/viz.png');
 }
 .manga-link.ama:before {
