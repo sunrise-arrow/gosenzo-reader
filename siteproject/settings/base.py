@@ -155,12 +155,14 @@ IMGUR_CLIENT_ID = os.environ.get("IMGUR_CLIENT_ID", "")
 MAIL_DISCORD_WEBHOOK_ID = int(os.environ.get("MAIL_DISCORD_WEBHOOK_ID", 1))
 MAIL_DISCORD_WEBHOOK_TOKEN = os.environ.get("MAIL_DISCORD_WEBHOOK_TOKEN", "")
 
-BRANDING_NAME = "Guya.moe"
-BRANDING_DESCRIPTION = "A place to read the entirety of the Kaguya-sama: Love is War manga. No ads. No bad reader. All guya."
+BRANDING_NAME = "Shamiko.moe"
+BRANDING_DESCRIPTION = "A place to read the entirety of The Demon Girl Next Door."
+# Need to change BRANDING_IMAGE_URL
 BRANDING_IMAGE_URL = "https://i.imgur.com/jBhT5LV.png"
 
-HOME_BRANDING_NAME = "Read the Kaguya-sama manga series | Guya.moe"
-HOME_BRANDING_DESCRIPTION = "Read the Kaguya-sama: Love is War / Kaguya Wants to Be Confessed To manga and spin-off series. No ads. No bad reader. All guya."
+HOME_BRANDING_NAME = "Read The Demon Girl Next Door | Shamiko.moe"
+HOME_BRANDING_DESCRIPTION = "Read The Demon Girl Next Door manga.."
+# Need to change HOME_BRANDING_IMAGE_URL
 HOME_BRANDING_IMAGE_URL = "https://i.imgur.com/jBhT5LV.png"
 
 IMAGE_PROXY_URL = "https://proxy.f-ck.me"
