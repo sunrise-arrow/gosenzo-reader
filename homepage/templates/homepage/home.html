@@ -145,9 +145,9 @@
 			<a href="/read/manga/The-Demon-Girl-Next-Door/"><h1>The Demon Girl Next Door</h1></a>
 			<h2>The Demon Girl Next Door</h2>
 			<h2>Machikado Mazoku</h2>
-			<div class="manga-links full">
+			<div class="manga-links">
 				<span>
-					<a href="/read/manga/The-Demon-Girl-Next-Door/" class="manga-link shamiko">Read the manga</a>
+					<a href="/read/manga/The-Demon-Girl-Next-Door/" class="manga-link full shamiko">Read the manga</a>
 				</span>
 				<span>
 					<a id="list_exp" href="#chapter_listing_exp" onclick="
@@ -176,34 +176,35 @@
 				document.getElementById('chapter_listing').classList.toggle('vis');
 				event.currentTarget.classList.toggle('vis');
 				toggleHash(event);
-			"><span>List of Kaguya-sama chapters</span></div>
+			"><span>List of The Demon Girl Next Door chapters</span></div>
 		</span>
 		<table id="chapter_listing" class="chapter-listing hidden">
 		</table>
 	</div>
+	<!-- All of this the text should be TEMP, we will rewrite it later-->
 	<article class="spiel">
-		<h1>This is the best place to read Kaguya online.</h1>
+		<h1>This is the best place to read Machikado Mazoku online.</h1>
 		<h3><i>And here are the reasons why.</i></h3>
 		<div class="card-container">
 			<div class="bullet-card">
 				<i class="bullet">•</i>
 				<div class="div">
 					<h2>No ads</h2>
-					<p>We don't have any ads - Guya.moe is made by the fans, for the fans. We don't seek profit, we just love Kaguya.</p>
+					<p>We don't have any ads - Shamiko.moe is made by the fans, for the fans. We don't seek profit, we just love Machikado Mazoku.</p>
 				</div>
 			</div>
 			<div class="bullet-card">
 				<i class="bullet">•</i>
 				<div class="div">
 					<h2>Reader built from scratch</h2>
-					<p>This site runs <a href="https://github.com/appu1232/siteproject">Cubari</a>: our fast, modern, and configurable manga reader, developed for Kaguya with features you haven't seen anywhere else.</p>
+					<p>This site is a fork of <a href="https://github.com/appu1232/guyamoe">Cubari</a>: a fast, modern, and configurable manga reader, developed for Kaguya, adapted for Machikado Mazoku.</p>
 				</div>
 			</div>
 			<div class="bullet-card">
 				<i class="bullet">•</i>
 				<div class="div">
 					<h2>Full-text search</h2>
-					<p>We indexed the whole series, word for word. Open any manga chapter and press Ctrl+F to <a href="https://guya.moe/1#s" target="_blank">search</a> for any text within the entire manga.</p>
+					<p>We indexed the whole series, word for word. Open any manga chapter and press Ctrl+F to <a href="https://shamiko.moe/1#s" target="_blank">search</a> for any text within the entire manga.</p>
 				</div>
 			</div>
 			<div class="bullet-card">
@@ -215,7 +216,7 @@
 			</div>
 		</div>
 		<section>
-			<h2>Is this the official site for Kaguya-sama?</h2>
+			<h2>Is this the official site for Machikado Mazoku?</h2>
 			<p>No, this entire site is fan-made, and we only host fan-made translations. The official printed release is done by Viz Media.  There are no official translations for <i>We Want to Talk About Kaguya</i>, the official doujin, and <i>Oshi no Ko</i>.</p>
 			<h2>Why did you make this?</h2>
 			<p>At some point, the team that originally scanlated Kaguya (Jaimini's Box) removed their chapters from Mangadex and only hosted them on their own website. However, their website did not have the earlier chapters, meaning the series was incomplete there.  Meanwhile, the other releases posted on Mangadex at the time were of a much lower quality than the Jaimini's Box versions.</p>
@@ -223,9 +224,9 @@
 			<h2>There is an official translation by Viz. Why host unofficial translations?</h2>
 			<img src="/static/kgscreenshot.png" class="img-aside" />
 			<p><b>First</b>, the Viz manga volumes have yet to catch up to the weekly release.  There is also no simultaneous release for Kaguya on MangaPlus.</p>
-			<p><b>Second</b>, by making the site as perfect as possible we direct a lot of traffic away from other "read Kaguya" websites that earn money with shady ads by taking fan releases and hosting them with no regard for quality or the fans - their only aim is views and ad revenue.</p>
+			<p><b>Second</b>, by making the site as perfect as possible we direct a lot of traffic away from other aggregator websites that earn money with shady ads by taking fan releases and hosting them with no regard for quality or the fans - their only aim is views and ad revenue.</p>
 			<p><b>Third</b>, despite providing all the chapters for free, we still want to promote the official sources so readers can support the author and official translators. We believe that both official and non-official releases can coexist - by keeping readers actively interested with regular weekly fan translations, we think more readers will buy official volumes and help support the series.</p>
-			<a href="/read/manga/The-Demon-Girl-Next-Door/" class="manga-link guya" style="margin-left: 0">Start reading ›</a>
+			<a href="/read/manga/The-Demon-Girl-Next-Door/" class="manga-link shamiko" style="margin-left: 0">Start reading ›</a>
 		</section>
 	</article>
 </main>
@@ -242,6 +243,8 @@
 	</div>
 	<!-- <a href="#" onclick="setTimeout(function () {  localStorage.setItem('reload', '1') }, 1);">reload stop</a><a href="#" onclick="setTimeout(function () {  localStorage.setItem('reload', '0')}, 1);">| start</a> -->
 </footer>
+
+<!-- End of HTML the rest is scripting for History and the Manga-Anime chart -->
 
 <script>
 	let quoteNumb = Math.floor(Math.random() * 9) + 1;
