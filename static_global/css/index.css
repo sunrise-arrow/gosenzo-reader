@@ -27,14 +27,14 @@ body {
 	background-attachment: fixed;
 	background-position: 50% 10%;
 	background-size: 1500px;
-	/* background-image: url('/static/img/bg_box.png'); */
-	background-color:rgb(255, 255, 255);
+	background-image: url('/static/img/bg_box.png');
+	background-color:#000000;
 	padding-top: 5em;
 }
 
 
 header {
-	background: linear-gradient(0deg,rgba(40, 5, 61, 0.65) 0%, rgb(40, 5, 61) 100%);
+	background: linear-gradient(0deg,rgba(15, 0, 25, 0.65) 0%, rgb(15, 0, 25) 100%);
 	position: fixed;
 	top: 0;
 	z-index: 300;
