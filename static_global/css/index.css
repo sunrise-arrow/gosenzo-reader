@@ -626,7 +626,8 @@ main a {
 .manga-link.after-anime:before,
 .manga-link.sevsea:before,
 .manga-link.ama:before,
-.manga-link.gp:before {
+.manga-link.gp:before,
+.manga-link.fuz:before{
 	content: "";
 	display: inline-block;
 	width: 1.2em;
@@ -712,8 +713,8 @@ main a {
 .manga-link.gp {
 	border-color: #009bf088;
 }
-.manga-link.yj {
-	border-color: #a7c6e688;
+.manga-link.fuz {
+	border-color: #ffffffb0;
 }
 .manga-link.jp:after {
 	content:"あ";
@@ -743,8 +744,8 @@ main a {
 .manga-link.gp:before {
 	background-image: url('../img/gp.png');
 }
-.manga-link.yj:before {
-	background-image: url('../img/yj.png');
+.manga-link.fuz:before {
+	background-image: url('../img/fuz.png');
 }
 .manga-link.shu:before {
 	background-image: url('../img/shu.png');
