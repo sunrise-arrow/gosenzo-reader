@@ -704,7 +704,7 @@ main a {
 	border-color: #6db4ff87;
 }
 .manga-link.sevsea {
-	border-color: #cc000088;
+	border-color: #94b2ca;
 }
 .manga-link.ama {
 	border-color: #f8981d88;
@@ -735,7 +735,7 @@ main a {
 	background-image: url('//raw.githubusercontent.com/inorichi/tachiyomi/master/.github/readme-images/app-icon.png');
 }
 .manga-link.sevsea:before {
-	background-image: url('../img/viz.png');
+	background-image: url('../img/sevsea.png');
 }
 .manga-link.ama:before {
 	background-image: url('../img/ama.png');
