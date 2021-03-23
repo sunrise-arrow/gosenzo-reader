@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Vollkorn:400,400i,600&display=swap&subset=latin-ext');
 @font-face {
-	font-family: 'guya';
+	font-family: 'shamiko';
 	src:
-	url('../fonts/guya.woff?bss2') format('woff');
+	url('../fonts/shamiko.woff?bss2') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 .ico-btn {
-	font-family: 'guya' !important;
+	font-family: 'shamiko' !important;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -269,7 +269,7 @@ header {
 }
 
 .navbar .nav-item textarea::placeholder {
-	font-family: 'guya', BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+	font-family: 'shamiko', BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 .enter-key {
@@ -621,7 +621,7 @@ main a {
 	flex-shrink: 1;
 	width: 100%;
 }
-.manga-link.guya:before,
+.manga-link.shamiko:before,
 .manga-link.tachiyom:before,
 .manga-link.after-anime:before,
 .manga-link.sevsea:before,
@@ -725,7 +725,7 @@ main a {
 	text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black; 
 }
 
-.manga-link.guya:before {
+.manga-link.shamiko:before {
 	background-image: url('../logo_small.png');
 }
 .manga-link.after-anime:before {
@@ -1200,7 +1200,7 @@ main a {
 	color: #eee;
 }
 .page-series .read-icon:before {
-	font-family: guya;
+	font-family: shamiko;
 	content:"";
 }
 .page-series th.read-icon.confirm:after {
