@@ -106,7 +106,7 @@ class Chapter(models.Model):
     )
     group = models.ForeignKey(Group, null=True, on_delete=models.SET_NULL)
     uploaded_on = models.DateTimeField(
-        default=None, blank=True, null=True, db_index=True
+        default=None, null=True, db_index=True
     )
     updated_on = models.DateTimeField(
         default=None, blank=True, null=True, db_index=True
