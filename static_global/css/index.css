@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Vollkorn:400,400i,600&display=swap&subset=latin-ext');
 @font-face {
-	font-family: 'guya';
+	font-family: 'site_symbols';
 	src:
-	url('../fonts/guya.woff?bss2') format('woff');
+	url('../fonts/site_symbol.woff?bss2') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 .ico-btn {
-	font-family: 'guya' !important;
+	font-family: 'site_symbol' !important;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -28,13 +28,13 @@ body {
 	background-position: 50% 10%;
 	background-size: 1500px;
 	background-image: url('/static/img/bg_box.png');
-	background-color:black;
+	background-color:#000000;
 	padding-top: 5em;
 }
 
 
 header {
-	background: linear-gradient(0deg,rgba(0,0,0,0.65) 0%, rgb(0, 0, 0) 100%);
+	background: linear-gradient(0deg,rgba(15, 0, 25, 0.65) 0%, rgb(15, 0, 25) 100%);
 	position: fixed;
 	top: 0;
 	z-index: 300;
@@ -269,7 +269,7 @@ header {
 }
 
 .navbar .nav-item textarea::placeholder {
-	font-family: 'guya', BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+	font-family: 'site_symbol', BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 .enter-key {
@@ -621,14 +621,13 @@ main a {
 	flex-shrink: 1;
 	width: 100%;
 }
-.manga-link.guya:before,
+.manga-link.shamiko:before,
 .manga-link.tachiyom:before,
 .manga-link.after-anime:before,
-.manga-link.viz:before,
+.manga-link.sevsea:before,
 .manga-link.ama:before,
 .manga-link.gp:before,
-.manga-link.yj:before,
-.manga-link.shu:before {
+.manga-link.fuz:before{
 	content: "";
 	display: inline-block;
 	width: 1.2em;
@@ -642,30 +641,30 @@ main a {
 	top: -1px;
 }
 
-.manga-link.guya {
+.manga-link.shamiko {
 	font-size: 1.18em;
-	border-color: #f00c;
-	background-color: #c608082e;
+	border-color: #a200ffcc;
+	background-color: #6108c62e;
 	/*animation: 0.3s shake infinite;*/
 }
 
 .manga-link.chapter {
 	font-size: 0.9rem;
-	border-color: #f00c; 
-	background-color: #c608082e;
+	border-color: #a200ffcc;
+	background-color: #6108c62e;
 	padding: 0;
 	cursor: pointer;
 	margin-left: 0;
 	outline: none !important;
 }
 .manga-link.chapter > span {
-	border-color: #f00c;
+	border-color: #a200ffcc;
 	padding: 0.4em 0.8em;
 	display: inline-block;
 	color: #ddd;
 }
 .manga-link.chapter .manga-link-chap {
-	border-right: 1px solid #f00c;
+	border-right: 1px solid #a200ffcc;
 	padding: 0.4em 0.5em;
 }
 .manga-link.chapter .manga-link-text {
@@ -705,8 +704,8 @@ main a {
 	font-size: 1em;
 	border-color: #6db4ff87;
 }
-.manga-link.viz {
-	border-color: #cc000088;
+.manga-link.sevsea {
+	border-color: #94b2ca;
 }
 .manga-link.ama {
 	border-color: #f8981d88;
@@ -714,8 +713,8 @@ main a {
 .manga-link.gp {
 	border-color: #009bf088;
 }
-.manga-link.yj {
-	border-color: #a7c6e688;
+.manga-link.fuz {
+	border-color: #e944b7b0;
 }
 .manga-link.jp:after {
 	content:"あ";
@@ -727,7 +726,7 @@ main a {
 	text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black; 
 }
 
-.manga-link.guya:before {
+.manga-link.shamiko:before {
 	background-image: url('../logo_small.png');
 }
 .manga-link.after-anime:before {
@@ -736,8 +735,8 @@ main a {
 .manga-link.tachiyom:before {
 	background-image: url('//raw.githubusercontent.com/inorichi/tachiyomi/master/.github/readme-images/app-icon.png');
 }
-.manga-link.viz:before {
-	background-image: url('../img/viz.png');
+.manga-link.sevsea:before {
+	background-image: url('../img/sevsea.jpg');
 }
 .manga-link.ama:before {
 	background-image: url('../img/ama.png');
@@ -745,8 +744,8 @@ main a {
 .manga-link.gp:before {
 	background-image: url('../img/gp.png');
 }
-.manga-link.yj:before {
-	background-image: url('../img/yj.png');
+.manga-link.fuz:before {
+	background-image: url('../img/fuz.png');
 }
 .manga-link.shu:before {
 	background-image: url('../img/shu.png');
@@ -1202,7 +1201,7 @@ main a {
 	color: #eee;
 }
 .page-series .read-icon:before {
-	font-family: guya;
+	font-family: site_symbol;
 	content:"";
 }
 .page-series th.read-icon.confirm:after {
