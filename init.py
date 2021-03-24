@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw, ImageFilter
 
 WIDTH = 850
 HEIGHT = 1250
-PAGES = 18
+PAGES = 1
 PROCESSES = 15
 
 MEDIA_BASE = "media"
