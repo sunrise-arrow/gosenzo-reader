@@ -526,16 +526,18 @@ main a {
 	line-height: 1.5;
 	display: inline;
 	margin-right: auto;
+	text-shadow: none;
 }
 .manga-card article > a:hover h1 {
 	text-decoration: underline;
 }
 .manga-card article h2 {
 	font-size: 0.9em;
-	color: #aaa;
+	color: rgb(95, 95, 95);
 	font-weight: normal;
 	line-height: 1.5;
 	margin-top: 0.5em;
+	text-shadow: none;
 }
 .manga-card article p {
 	margin: 0.4em 0 0 0;
@@ -559,7 +561,7 @@ main a {
 }
 
 .manga-card.bigg .manga-links.shill {
-	color: #ddd;
+	color: #fff;
 }
 .manga-card.bigg:before {
 	content: unset;
@@ -580,7 +582,7 @@ main a {
 	font-size: 0.8em;
 	margin: 0.75em 0 0 12px;
 	user-select: none;
-	color: #131313 !important;
+	color: #fff !important;
 }
 
 .manga-link img {
@@ -702,19 +704,15 @@ main a {
 }
 .manga-link.sevsea {
 	background-color: #498ec7;
-	color: #ffffff;
 }
 .manga-link.ama {
 	background-color: #bd7312;
-	color: #ffffff;
 }
 .manga-link.gp {
 	background-color: #1983bd;
-	color: #ffffff;
 }
 .manga-link.fuz {
 	background-color: #cf1b99b0;
-	color: #ffffff;
 }
 .manga-link.jp:after {
 	content:"あ";
@@ -722,7 +720,7 @@ main a {
 	right: -0.5em;
 	top: -0.7em;
 	color: #161616;
-	font-size: 0.8em;
+	font-size: 1em;
 	text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff; 
 }
 
@@ -985,13 +983,15 @@ main a {
 
 .spiel h1 {
 	text-align: center;
+	text-shadow: none;
 }
 
 .spiel h3 {
 	text-align: center;
 	margin-top: 1rem;
-	color: #555555;
-	font-size: 1.2em;
+	color: #4e4e4e;
+	font-size: 1.3em;
+	text-shadow: none;
 }
 
 .spiel .card-container {
@@ -1018,6 +1018,7 @@ main a {
 	font-size: 1.5em;
 	border-bottom: 1px #444 solid;
 	padding-bottom: 0.38em;
+	text-shadow: none;
 }
 
 
@@ -1050,6 +1051,7 @@ main a {
 	margin-top: 4rem;
 	font-family: Vollkorn;
 	font-weight: 500;
+	text-shadow: none;
 }
 .spiel section h2:after {
 	display: block;
