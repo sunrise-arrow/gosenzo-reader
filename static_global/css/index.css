@@ -539,7 +539,7 @@ main a {
 }
 .manga-card article p {
 	margin: 0.4em 0 0 0;
-	color: #ddd;
+	color: rgb(22, 22, 22);
 	font-size: 0.9em;
 }
 
@@ -948,7 +948,7 @@ main a {
 	font-size: 1em;
 }
 .manga-card.smol p {
-	color: #ccc;
+	color: rgb(22, 22, 22);
 }
 
 .manga-card.smol picture {
@@ -1138,7 +1138,7 @@ main a {
 	margin-bottom: 0;
 	margin-top: 0.5em;
 	font-size: 0.9em;
-	color: #ccc;
+	color: rgb(22, 22, 22);
 }
 
 .page-series article p:nth-of-type(1) {
