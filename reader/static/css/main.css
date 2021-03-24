@@ -22,8 +22,8 @@
 }
 
 @font-face {
-	font-family: 'guya';
-	src: url('../fonts/guya.woff?reqlv7') format('woff');
+	font-family: 'site_symbols';
+	src: url('../fonts/site_symbols.woff2?reqlv7') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -37,7 +37,7 @@
 
 .ico-btn {
 	/* use !important to prevent issues with browser extensions that change fonts */
-	font-family: 'guya' !important;
+	font-family: 'site_symbols' !important;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -224,7 +224,7 @@ main > aside > header {
 }
 
 .inline-icon {
-	font-family: guya !important;
+	font-family: site_symbols !important;
 	font-size: 1em;
 }
 
@@ -262,7 +262,7 @@ aside header > .guya {
 	outline: none;
 }*/
 
-.ico-btn.guya:before {
+.ico-btn.gohome:before {
 	content:"\e907";
 	font-size: 1.2em;
 }
@@ -770,7 +770,7 @@ aside header > .guya {
 
 .unload .rdr-selector-mid:before {
   content: "";
-  font-family: Guya;
+  font-family: site_symbols;
   display: block;
   position: absolute;
   left: 50%;
@@ -857,7 +857,7 @@ aside header > .guya {
 .rdr-area .hover-arrow {
 	color: white;
 	display: block;
-	font-family: guya;
+	font-family: site_symbols;
 	font-size: 2em;
 	padding: 2rem 2rem 0rem 2rem;
 	text-shadow: 0px 2px 1px rgba(0,0,0,0.7), 0px 1px 3px rgba(0,0,0,0.7);
@@ -1571,7 +1571,7 @@ _:-webkit-full-screen:not(:root:root), .fit-height_limit .rdr-image-wrap .Reader
 .Loda_Jump input::-moz-placeholder,
 .Loda_Jump input:-ms-input-placeholder, 
 .Loda_Jump input:-moz-placeholder {
-  font-family: 'guya';
+  font-family: 'site_symbols';
   opacity: 0.5;
 }
 
@@ -1731,7 +1731,7 @@ _:-webkit-full-screen:not(:root:root), .fit-height_limit .rdr-image-wrap .Reader
 .SettingUnit.compact .ToggleButton:before {
 	content: "";
 	display: inline-block;
-	font-family: Guya;
+	font-family: site_symbols;
 	font-size: 1.7em;
 	line-height: 0;
 	margin-right: -0.2em;
@@ -2553,7 +2553,7 @@ _:-webkit-full-screen:not(:root:root), .fit-height_limit .rdr-image-wrap .Reader
 
 	/*.rdr-image-wrap:before {
 		content: "\e909\00000A\00000A\00000A\e909\00000A\00000A\00000A\e909";
-		font-family: 'guya';
+		font-family: 'site_symbols';
 		justify-content: flex-end;
 		box-sizing: border-box;
 		white-space: pre-wrap;
@@ -2570,7 +2570,7 @@ _:-webkit-full-screen:not(:root:root), .fit-height_limit .rdr-image-wrap .Reader
 /*
 	.rdr-image-wrap div:last-child:after {
 		content: "\e905\00000A\00000A\00000A\e905\00000A\00000A\00000A\e905";
-		font-family: 'guya';
+		font-family: 'site_symbols';
 		justify-content: flex-start;
 		box-sizing: border-box;
 		white-space: pre-wrap;
@@ -2744,7 +2744,7 @@ _:-webkit-full-screen:not(:root:root), .fit-height_limit .rdr-image-wrap .Reader
 
 .nextCha:after {
 	content: "⮠";
-	font-family: Guya;
+	font-family: site_symbols;
 	margin-left: 1em;
 	border: 1px solid gray;
 	border-radius: 3px;
@@ -3202,7 +3202,7 @@ body, button, button:before {
 	position: relative;
     left: -25px;
     bottom: -2px;
-    font-family: 'Guya';
+    font-family: 'site_symbols';
     font-size: 20px;
     content: "\e902";
 }
