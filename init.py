@@ -78,13 +78,13 @@ def load_fixtures(path):
                 )
                 for page_num in range(1, PAGES + 1):
                     chapters.append(
-                        f"manga/{series[f['series']]}/chapters/{f['folder']}/{f['group']}/{page_num:03}.jpg"
+                        f"manga/{series[f['series']]}/chapters/{f['folder']}/{f['group']}/{page_num:03}.png"
                     )
                     chapters.append(
-                        f"manga/{series[f['series']]}/chapters/{f['folder']}/{f['group']}_shrunk/{page_num:03}.jpg"
+                        f"manga/{series[f['series']]}/chapters/{f['folder']}/{f['group']}_shrunk/{page_num:03}.png"
                     )
                     chapters.append(
-                        f"manga/{series[f['series']]}/chapters/{f['folder']}/{f['group']}_shrunk_blur/{page_num:03}.jpg"
+                        f"manga/{series[f['series']]}/chapters/{f['folder']}/{f['group']}_shrunk_blur/{page_num:03}.png"
                     )
 
             elif d["model"] == "reader.volume":
