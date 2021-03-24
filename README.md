@@ -3,10 +3,7 @@
 This branch is to remove static and (most) backend mentions of guyamoe
 
 # Shamiko.moe
-Generalized manga reading framework. Adapted for Kaguya-sama manga, but can be used generically for any and all manga.
-
-Testing Supported By<br/>
-<img width="160" src="http://foundation.zurb.com/sites/docs/assets/img/logos/browser-stack.svg" alt="BrowserStack"/>
+Readapting [Cubari](https://github.com/appu1232/guyamoe) for Machikado Mazoku
 
 ⚠ **Note:** The install instructions below will not result in a general purpose CMS due to the amount of hardcoded assets in siteproject.
 
