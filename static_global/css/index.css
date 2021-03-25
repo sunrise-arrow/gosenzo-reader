@@ -1301,6 +1301,18 @@ main a {
 	text-align: center;
 }
 
+.chapter-title {
+	padding: 0 0 0 0;
+}
+
+.chapter-title-box {
+	padding: 12rem;
+	height:100%;
+	width:100%;
+	background: none;
+	color: #161616;
+}
+
 #compactView .card {
 	background: none;
 	padding: 0;
