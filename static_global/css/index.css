@@ -340,9 +340,9 @@ header {
 	border-bottom: 3px solid #fff;
 }
 .navbar .nav-link.s, .navbar .nav-item.show .nav-link {
-	background: none !important;
-	border-bottom: 1px solid #bbb;
-	box-shadow: 0px -38px 20px -40px #bbb inset;
+	background: #410585 !important;
+	border-bottom: 3px solid #fff;
+
 	color: white;
 }
 
