@@ -1266,7 +1266,7 @@ th.header-download {
 }
 
 .is-read {
-	opacity: 0.6;
+	opacity: 0.85;
 	background-color: #0000003a;
 }
 .is-read .read-icon:before,
