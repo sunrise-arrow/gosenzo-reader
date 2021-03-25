@@ -1221,12 +1221,12 @@ th.header-download {
 	text-align: center;
 }
 
-.btn-group a .fa {
+.btn-group a {
 	background-color: #b8b8b8 !important;
 	color: #161616;
 }
 
-.btn-group a .fa:hover{
+.btn-group a:hover{
 	background-color: #dbdbdb !important;
 }
 
