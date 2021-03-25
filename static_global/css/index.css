@@ -1105,11 +1105,13 @@ main a {
 	 background-position: 50% 10%;
 	  background-size: 1500px;
 	  /*background-image: url('/static/img/bg_box_blur_smol.png');*/
+	box-shadow: 0px 7px 17px -5px black;
   padding: 0;
 }
 
 .page-series .sidecard {
   background-color: #ffffff;
+  box-shadow: 0px 7px 17px -5px black;
 		background-attachment: fixed;
 	 background-position: 50% 10%;
 	  background-size: 1500px;
@@ -1121,6 +1123,7 @@ main a {
 	border-top-left-radius: 3px;
 	overflow: hidden;
 	border-top-right-radius: 3px;
+	box-shadow: 0px 7px 17px -5px black;
 }
 
 .page-series article {
