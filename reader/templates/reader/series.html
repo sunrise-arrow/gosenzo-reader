@@ -613,9 +613,9 @@ var reading_button = null;
 							{% for chapter_list_value, chapter, title, ch_slug, group, upload_date, volume in chapter_list %}
 							<tr class="table-default" data-chapter="{{ chapter }}">
 								<td scope="row" class="read-icon" onclick="updateRead('{{ chapter }}')"></td>
-								<a href="/{{ reader_modifier }}/{{ slug }}/{{ ch_slug }}/1/"></a>
-									<td scope="row" class="chapter-title">
-									
+								<td scope="row" class="chapter-title">
+									<div style="height:100%;width:100%;background:none;">
+										<a href="/{{ reader_modifier }}/{{ slug }}/{{ ch_slug }}/1/">
 										{% if chapter_list_value %}
 										{{ chapter_list_value }}
 										{% endif %}
@@ -623,9 +623,9 @@ var reading_button = null;
 										 -
 										{% endif %}
 										{{ title }}
-									
-									</td>
-								</a>
+										</a>
+									</div>
+								</td>
 								<td scope="row">{{ group }}</td>
 								<td scope="row" class="detailed-chapter-upload-date">{{ upload_date }}</td>
 								{% if "download" in available_features %}
