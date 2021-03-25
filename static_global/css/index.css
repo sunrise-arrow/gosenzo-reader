@@ -238,6 +238,7 @@ header {
 	align-items: stretch;
 	position: relative;
 	white-space: nowrap;
+	width: fit-content;
 }
 .navbar .nav-item textarea {
 	background: black;
