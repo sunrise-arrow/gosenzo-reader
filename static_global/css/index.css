@@ -1221,6 +1221,15 @@ th.header-download {
 	text-align: center;
 }
 
+.btn-group a .fa {
+	background-color: #b8b8b8 !important;
+	color: #161616;
+}
+
+.btn-group a .fa:hover{
+	background-color: #dbdbdb !important;
+}
+
 .page-series #chapters a {
 	text-decoration: none;
 }
