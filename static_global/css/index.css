@@ -1186,6 +1186,8 @@ main a {
 	text-shadow: none;
 }
 
+
+
 .page-series #chapters th {
 	white-space: nowrap;
 	padding: 0 1em;
@@ -1200,6 +1202,23 @@ main a {
 	border-top: 1px solid #707070;
 	box-shadow: none !important;
 	outline: none !important;
+}
+
+th.header-group {
+	padding:0 !important;
+	text-align: left !important;
+}
+
+th.header-updated {
+	text-align: center;
+}
+
+th.header-download {
+	text-align: center;
+}
+
+.page-series td.detailed-chapter-download-chapter {
+	text-align: center;
 }
 
 .page-series #chapters a {
