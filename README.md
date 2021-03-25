@@ -3,7 +3,9 @@
 This branch is to remove static and (most) backend mentions of guyamoe
 
 # Shamiko.moe
-Readapting [Cubari](https://github.com/appu1232/guyamoe) for Machikado Mazoku
+Retooling [Cubari](https://github.com/appu1232/guyamoe) for Machikado Mazoku
+
+# Cubari
 
 ⚠ **Note:** The install instructions below will not result in a general purpose CMS due to the amount of hardcoded assets in siteproject.
 
@@ -14,37 +16,37 @@ Readapting [Cubari](https://github.com/appu1232/guyamoe) for Machikado Mazoku
 - virtualenv
 
 ## Install
-1. Create a venv for siteproject in your home directory.
+1. Create a venv for Guyamoe in your home directory.
 ```
-virtualenv ~/mywebapp
+virtualenv ~/guyamoe
 ```
 
-2. Clone gosenzo-reader's source code into the venv.
+2. Clone Guyamoe's source code into the venv.
 ```
-git clone https://github.com/sunrise-arrow/gosenzo-reader.git ~/siteproject/app
+git clone https://github.com/appu1232/guyamoe ~/guyamoe/app
 ```
 
 3. Activate the venv.
 ```
-cd ~/mywebapp/app && source ../bin/activate
+cd ~/guyamoe/app && source ../bin/activate
 ```
 
-4. Install siteproject's dependencies.
+4. Install Guyamoe's dependencies.
 ```
 pip3 install -r requirements.txt
 ```
 
 5. Change the value of the `SECRET_KEY` variable to a randomly generated string.
 ```
-sed -i "s|\"o kawaii koto\"|\"$(openssl rand -base64 32)\"|" siteproject/settings/base.py
+sed -i "s|\"o kawaii koto\"|\"$(openssl rand -base64 32)\"|" guyamoe/settings/base.py
 ```
 
-6. Generate the default assets for siteproject.
+6. Generate the default assets for Guyamoe.
 ```
 python3 init.py
 ```
 
-7. Create an admin user for siteproject.
+7. Create an admin user for Guyamoe.
 ```
 python3 manage.py createsuperuser
 ```
