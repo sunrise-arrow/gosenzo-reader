@@ -527,7 +527,7 @@ main a {
 }
 .manga-card article > a:hover h1 {
 	text-decoration: underline;
-	color: none;
+	color: #222222;
 }
 .manga-card article h2 {
 	font-size: 0.9em;
