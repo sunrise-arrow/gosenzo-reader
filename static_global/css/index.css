@@ -1245,7 +1245,7 @@ main a {
 	content:"";
 }
 
-tr:hover {
+.table-default tr:hover {
 	background-color: #b8b8b8;
 	color: #414141;
 }
