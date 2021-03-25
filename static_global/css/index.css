@@ -252,7 +252,7 @@ header {
 	height: 0;
 	margin-top: 0.8rem;
 	overflow: hidden;
-	padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+	padding: 0.5rem 0.75rem 0 0.75rem;
 	position: relative;
 	resize: none;
 	transition: max-width 0.2s ease;
@@ -337,9 +337,7 @@ header {
 	background: none !important;
 	border: none;
 	color: white;
-	box-shadow: 0px -39px 20px -40px #666 inset;
-	border-bottom: 1px solid #666;
-	transition: box-shadow 0.1s ease;
+	border-bottom: 3px solid #fff;
 }
 .navbar .nav-link.s, .navbar .nav-item.show .nav-link {
 	background: none !important;
@@ -530,6 +528,7 @@ main a {
 }
 .manga-card article > a:hover h1 {
 	text-decoration: underline;
+	color: none;
 }
 .manga-card article h2 {
 	font-size: 0.9em;
@@ -1050,6 +1049,10 @@ main a {
 .spiel a {
 	color: #e33f3f;
 }
+
+.spiel a:hover {
+	text-decoration: underline;
+  }
 
 .spiel section h2 {
 	margin-top: 4rem;
