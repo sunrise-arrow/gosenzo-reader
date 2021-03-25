@@ -338,11 +338,11 @@ header {
 	border: none;
 	color: white;
 	border-bottom: 3px solid #fff;
+	transition: border-bottom 0.3s;
 }
 .navbar .nav-link.s, .navbar .nav-item.show .nav-link {
 	background: #410585 !important;
 	border-bottom: 3px solid #fff;
-
 	color: white;
 }
 
@@ -602,13 +602,16 @@ main a {
 
 .manga-link:hover {
 	filter: brightness(.7);
+	text-decoration: none;
 }
 .manga-link:hover:before {
 	filter: brightness(1);
+	text-decoration: none;
 }
 
 .manga-link.selected {
 	filter: brightness(.7);
+	text-decoration: none;
 }
 
 .hidden {
