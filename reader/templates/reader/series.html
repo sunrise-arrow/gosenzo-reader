@@ -614,17 +614,17 @@ var reading_button = null;
 							<tr class="table-default" data-chapter="{{ chapter }}">
 								<td scope="row" class="read-icon" onclick="updateRead('{{ chapter }}')"></td>
 								<td scope="row" class="chapter-title">
-									<div style="height:100%;width:100%;background:none;">
-										<a href="/{{ reader_modifier }}/{{ slug }}/{{ ch_slug }}/1/">
-										{% if chapter_list_value %}
-										{{ chapter_list_value }}
-										{% endif %}
-										{% if chapter_list_value and title %}
-										 -
-										{% endif %}
-										{{ title }}
-										</a>
-									</div>
+									<a href="/{{ reader_modifier }}/{{ slug }}/{{ ch_slug }}/1/">
+										<div style="height:100%;width:100%;background">
+											{% if chapter_list_value %}
+											{{ chapter_list_value }}
+											{% endif %}
+											{% if chapter_list_value and title %}
+											-
+											{% endif %}
+											{{ title }}
+										</div>
+									</a>
 								</td>
 								<td scope="row">{{ group }}</td>
 								<td scope="row" class="detailed-chapter-upload-date">{{ upload_date }}</td>
