@@ -338,7 +338,7 @@ header {
 	border: none;
 	color: white;
 	border-bottom: 3px solid #fff;
-	transition: border-bottom 0.3s;
+	transition: border-bottom ease 0.1s;
 }
 .navbar .nav-link.s, .navbar .nav-item.show .nav-link {
 	background: #410585 !important;
