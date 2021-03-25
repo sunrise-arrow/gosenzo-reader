@@ -1238,11 +1238,16 @@ main a {
 
 .is-read {
 	opacity: 0.6;
-	background-color: #888888;
+	background-color: #979797;
 }
 .is-read .read-icon:before,
 .page-series .all-read:before {
 	content:"";
+}
+
+tr:hover {
+	background-color: #b8b8b8;
+	color: #414141;
 }
 
 .page-series .btn-group {
