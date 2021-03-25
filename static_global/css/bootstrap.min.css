@@ -3675,14 +3675,14 @@ input[type="button"].btn-block {
 .dropdown-item:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #1d023b;
+    background-color: #300068;
 }
 
 .dropdown-item.active,
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #1d023b;
+    background-color: #300068;
 }
 
 .dropdown-item.disabled,
@@ -10863,9 +10863,6 @@ a.text-dark:focus {
     padding: 0
 }
 
-.navbar .navbar-toggler {
-    border-color: rgba(0, 0, 0, 0.6)
-}
 
 .navbar-fixed-top {
     border-width: 0 0 1px 0

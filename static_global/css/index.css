@@ -161,10 +161,10 @@ header {
 		z-index: 200;
 		width: auto;
 		min-width: 10rem;
-		background: #1e1e1e;
+		background: #1d023b;
 		box-shadow: 0px 7px 17px -5px black;
 		/*border-radius: 3px;*/
-		overflow: auto;
+		overflow: hidden !important;
 		padding-right: 0;
 	}
 
