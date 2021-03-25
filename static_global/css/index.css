@@ -802,8 +802,8 @@ main a {
 	font-weight: normal;
 	padding: 0.7em 1em;
 	font-size: 1.1em;
-	color: #bbb;
-	background: #eba7c9;
+	color: #131313;
+	background: #dd84b1;
 }
 .chapter-listing th.chapter-name {
 	padding-left: 0;
@@ -834,9 +834,10 @@ main a {
 .chapter-listing td {
 	padding: 0.4em 1em;
 	border-top: 1px solid rgba(255,255,255,0.2);
+	background: #dd84b1;
 }
 .chapter-listing tr:hover td {
-	background: rgba(255,255,255,0.06)
+	background: rgba(14, 14, 14, 0.178)
 }
 .chapter-listing td a {
 	padding: 0.4em 1em 0.4em 0;
