@@ -1238,16 +1238,11 @@ main a {
 
 .is-read {
 	opacity: 0.6;
-	background-color: #979797;
+	background-color: #bebebe;
 }
 .is-read .read-icon:before,
 .page-series .all-read:before {
 	content:"";
-}
-
-.table-default tr:hover {
-	background-color: #b8b8b8;
-	color: #414141;
 }
 
 .page-series .btn-group {
@@ -1317,6 +1312,11 @@ main a {
 	width:100%;
 	background: none;
 	color: #161616;
+}
+
+.chapter-title-box {
+	color: #222222;
+	text-decoration: underline;
 }
 
 #compactView .card {
