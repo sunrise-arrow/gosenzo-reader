@@ -599,11 +599,11 @@ main a {
 	cursor: default;
 	border: 0.2em;
 	border-radius: 0.2em;
-	background-color: #fab152;;
+	background-color: #bd7517;;
 }
 
 .manga-link:hover {
-	filter: brightness(.4);
+	filter: brightness(.6);
 }
 .manga-link:hover:before {
 	filter: brightness(1);
@@ -611,7 +611,7 @@ main a {
 
 .manga-link.selected {
 	filter: brightness(.4);
-	background-color: #c58026;
+	background-color: #a1620f;
 }
 
 .hidden {
@@ -758,13 +758,15 @@ main a {
 	text-align: center;
 	cursor: pointer;
 	user-select: none;
-	background: #c28aa6;
+	background: #c24b86;
+	color: #fff;
 	float: left;
 }
 
 .chapter-listing-expander:hover {
-	background: #854565;
+	background: rgb(80, 41, 61);
 }
+
 
 .chapter-listing-expander span {
 	padding: 0.5em;
@@ -797,13 +799,14 @@ main a {
 .chapter-listing, 
 .chapter-listing tr {
 	min-width: 100%;
+	background: #7a2f55;
 }
 .chapter-listing th {
 	font-weight: normal;
 	padding: 0.7em 1em;
 	font-size: 1.1em;
-	color: #131313;
-	background: #dd84b1;
+	color: #ffffff;
+	background: #7a2f55;
 }
 .chapter-listing th.chapter-name {
 	padding-left: 0;
@@ -834,7 +837,7 @@ main a {
 .chapter-listing td {
 	padding: 0.4em 1em;
 	border-top: 1px solid rgba(255,255,255,0.2);
-	background: #dd84b1;
+	background: #c24b86;
 }
 .chapter-listing tr:hover td {
 	background: rgba(14, 14, 14, 0.178)
