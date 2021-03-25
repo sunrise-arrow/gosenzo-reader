@@ -837,7 +837,7 @@ main a {
 .chapter-listing td {
 	padding: 0.4em 1em;
 	border-top: 1px solid rgba(255,255,255,0.2);
-	background: #c24b86;
+	background: #7a2f55;
 }
 .chapter-listing tr:hover td {
 	background: rgba(14, 14, 14, 0.178)
