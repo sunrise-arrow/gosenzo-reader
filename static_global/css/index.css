@@ -1323,16 +1323,17 @@ main a {
 	padding: 0;
 }
 #compactView .card-title {
-	color: white;
+	color: #161616;
+	text-shadow: none;
 	padding: 0 0 1em 1em;
-	border-bottom: 1px solid #555;
+	border-bottom: 1px solid #707070;
 }
 #compactView .card .chapter-number {
 	font-size: 1.3em;
 }
 #compactView .card .compact-chapter-upload-date,
 #compactView .card .chapter-group {
-	color: #aaa !important;
+	color: #353535 !important;
 }
 #compactView .card .row {
 	margin: 0 !important;
