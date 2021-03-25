@@ -39,7 +39,7 @@ header {
 	top: 0;
 	z-index: 300;
 	width: 100%;
-	padding-bottom: 0;
+	margin
 }
 
 .navbar {
@@ -419,7 +419,6 @@ header {
 	height: 5em;
 	max-width: 85em;
 	flex-basis: 85em;
-	padding: 0.7rem 0;
 }
 
 main {
