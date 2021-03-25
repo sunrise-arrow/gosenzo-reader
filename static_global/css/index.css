@@ -1111,7 +1111,7 @@ main a {
 }
 
 .page-series .sidecard {
-  background-color: #1a1a1a;
+  background-color: #ffffff;
 		background-attachment: fixed;
 	 background-position: 50% 10%;
 	  background-size: 1500px;
@@ -1130,13 +1130,14 @@ main a {
 	padding: 1em 1.3em;
 }
 .page-series article h1 {
-	color: white;
+	color: #161616;
+	text-shadow: none;
 	font-size: 2em;
 	margin-bottom: 0.5em;
 }
 .page-series article h2 {
 	font-size: 0.9em;
-	color: #aaa;
+	color: rgb(0, 0, 0);
 	font-weight: normal;
 }
 .page-series article p {
@@ -1180,7 +1181,8 @@ main a {
 }
 
 .page-series .table {
-	color: #ddd;
+	color: #161616;
+	text-shadow: none;
 }
 
 .page-series #chapters th {
@@ -1255,6 +1257,7 @@ main a {
 	padding: 0;
 	color: #242424;
 	background-color: #b8b8b8 !important;
+	text-shadow: none;
 }
 .page-series .btn-group .btn.s {
 	background-color: #fff !important;
