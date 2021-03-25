@@ -1196,7 +1196,7 @@ main a {
 }
 .page-series #chapters td {
 	border-bottom: 0;
-	border-top: 1px solid #444;
+	border-top: 1px solid #707070;
 	box-shadow: none !important;
 	outline: none !important;
 }
@@ -1211,7 +1211,7 @@ main a {
 	position: relative;
 }
 .page-series td.read-icon:hover {
-	color: #eee;
+	color: #616161;
 }
 .page-series .read-icon:before {
 	font-family: site_symbols;
@@ -1238,6 +1238,7 @@ main a {
 
 .is-read {
 	opacity: 0.6;
+	background-color: #888888;
 }
 .is-read .read-icon:before,
 .page-series .all-read:before {
