@@ -651,7 +651,7 @@ main a {
 
 .manga-link.chapter {
 	font-size: 0.9rem;
-	border-color: #a200ff;
+	border-color: #6c1fc4;
 	padding: 0;
 	cursor: pointer;
 	margin-left: 0;
@@ -668,7 +668,7 @@ main a {
 	padding: 0.4em 0.5em;
 }
 .manga-link.chapter .manga-link-text {
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.2);
 }
 .manga-link.chapter.no-chapter .manga-link-chap {
 	display: none;
@@ -1101,8 +1101,8 @@ main a {
 
 
 .page-series .series-content {
-  border-radius: 4px;
-  background-color: #1a1a1a;
+  /*border-radius: 4px;*/
+  background-color: #ffffff;
 		background-attachment: fixed;
 	 background-position: 50% 10%;
 	  background-size: 1500px;
@@ -1253,16 +1253,15 @@ main a {
 	border-radius: 0 !important;
 	box-shadow: none !important;
 	padding: 0;
-	border-bottom: 1px solid transparent !important;
+	color: #242424;
+	background-color: #b8b8b8 !important;
 }
 .page-series .btn-group .btn.s {
-	border-bottom: 1px solid #bbb !important;
-	box-shadow: 0px -34px 20px -40px #bbb inset !important;
-	color: white;
+	background-color: #fff !important;
+	color: #161616;
 }
 .page-series .btn-group .btn:not(.s):hover {
-	box-shadow: 0px -35px 20px -40px #666 inset !important;
-	border-bottom: 1px solid #666 !important;
+	background-color: #dbdbdb !important;
 }
 .page-series .btn-group a {
 	display: flex;
