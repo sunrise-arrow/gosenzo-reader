@@ -1,7 +1,6 @@
 from siteproject.settings.base import *
 
-ALLOWED_HOSTS = ["web", "localhost", '*']
-#remove wildcard before release
+ALLOWED_HOSTS = ["web", "localhost"]
 
 CACHES = {
     "default": {
@@ -13,7 +12,7 @@ CACHES = {
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "kasiteproject",
+        "NAME": "siteproject",
         "USER": "POSTGRES_USER",
         "PASSWORD": "POSTGRES_PASSWORD",
         "HOST": "postgres",
