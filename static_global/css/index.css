@@ -1236,7 +1236,7 @@ main a {
 
 .is-read {
 	opacity: 0.6;
-	background-color: #bebebe;
+	background-color: #0000004d;
 }
 .is-read .read-icon:before,
 .page-series .all-read:before {
