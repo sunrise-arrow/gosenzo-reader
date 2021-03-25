@@ -45,7 +45,7 @@ header {
 	text-shadow: none;
 	height: 5em;
 	align-items: stretch;
-	padding: 0.7rem 0 0 0;
+	padding: 0 0 0 0;
 	border: none;
 }
 
@@ -334,7 +334,7 @@ header {
 }
 
 .navbar .nav-link:hover, .navbar .nav-link:focus  {
-	background: none !important;
+	background: #410585 !important;
 	border: none;
 	color: white;
 	border-bottom: 3px solid #fff;
@@ -376,7 +376,7 @@ header {
 }*/
 
 .navbar .dropdown-menu {
-	background: #1e1e1e;
+	background: #1d023b;
 	box-shadow: 0px 7px 17px -5px black;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
