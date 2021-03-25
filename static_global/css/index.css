@@ -1280,11 +1280,11 @@ main a {
 
 .page-series #chapterTitleSearch {
 	border: none !important;
-	background:	rgba(0,0,0,0.2) !important;
+	background:	#00000080 !important;
 	border-radius: 0 !important;
 	line-height: inherit;
 	height: 3em;
-	color: white;
+	color: #161616;
 	padding-left: 1em;
 }
 
