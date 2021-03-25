@@ -1052,7 +1052,7 @@ main a {
 	color: #e33f3f;
 }
 
-.spiel a:hover {
+.spiel p a:hover {
 	text-decoration: underline;
   }
 
