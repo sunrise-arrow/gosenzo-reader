@@ -650,6 +650,8 @@ main a {
 .manga-link.chapter {
 	font-size: 0.9rem;
 	border-color: #a200ff;
+	border: 0.2em;
+	border-radius: 0.2em;
 	background-color: #6108c62e;
 	padding: 0;
 	cursor: pointer;
