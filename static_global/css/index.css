@@ -651,7 +651,8 @@ main a {
 
 .manga-link.chapter {
 	font-size: 0.9rem;
-	border-color: #6c1fc4;
+	background-color: #6c1fc4;
+	color: #ffffff;
 	padding: 0;
 	cursor: pointer;
 	margin-left: 0;
@@ -659,17 +660,16 @@ main a {
 }
 .manga-link.chapter > span {
 	border-color: #a200ffcc;
+	background-color: #9a73c7;
 	padding: 0.4em 0.8em;
 	display: inline-block;
-	color: #ddd;
+	color: #161616;
 }
 .manga-link.chapter .manga-link-chap {
-	border-right: 1px solid #a200ffcc;
+	border-right: 1px solid #410066cc;
 	padding: 0.4em 0.5em;
 }
-.manga-link.chapter .manga-link-text {
-	background: rgba(0,0,0,0.2);
-}
+
 .manga-link.chapter.no-chapter .manga-link-chap {
 	display: none;
 }
@@ -1315,7 +1315,7 @@ main a {
 }
 
 .chapter-title-box:hover {
-	color: #3f3f3f;
+	color: #000;
 	text-decoration: underline;
 }
 
