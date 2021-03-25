@@ -20,7 +20,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     "localhost",
-    '*'
+    'www.shamiko.moe',
+    'shamiko.moe'
 ]
 # Remove '*' before full release 
 CANONICAL_SITE_NAME = "shamiko.moe"

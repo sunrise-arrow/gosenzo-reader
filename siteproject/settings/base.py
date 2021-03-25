@@ -18,14 +18,14 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 PARENT_DIR = BASE_DIR.parent
 
-SECRET_KEY = os.environ.get("SECRET_KEY", "o kawaii koto")
+SECRET_KEY = os.environ.get("SECRET_KEY", "kiki kanri")
 
 CANONICAL_ROOT_DOMAIN = "localhost:8000"
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", '*']
-# Remove '*' before full release 
+ALLOWED_HOSTS = ["localhost"]
+
 
 SITE_ID = 1
 
