@@ -3668,21 +3668,21 @@ input[type="button"].btn-block {
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
-    border: 0
+    border: 0;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus {
     color: #fff;
     text-decoration: none;
-    background: #1d023b
+    background: #1d023b;
 }
 
 .dropdown-item.active,
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background: #1d023b
+    background: #1d023b;
 }
 
 .dropdown-item.disabled,
