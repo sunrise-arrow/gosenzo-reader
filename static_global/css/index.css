@@ -1314,8 +1314,8 @@ main a {
 	color: #161616;
 }
 
-.chapter-title-box {
-	color: #222222;
+.chapter-title-box:hover {
+	color: #3f3f3f;
 	text-decoration: underline;
 }
 
