@@ -603,14 +603,14 @@ main a {
 }
 
 .manga-link:hover {
-	filter: brightness(.6);
+	filter: brightness(.7);
 }
 .manga-link:hover:before {
 	filter: brightness(1);
 }
 
 .manga-link.selected {
-	filter: brightness(.4);
+	filter: brightness(.7);
 }
 
 .hidden {
