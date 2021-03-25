@@ -18,17 +18,17 @@ Retooling [Cubari](https://github.com/appu1232/guyamoe) for Machikado Mazoku
 ## Install
 1. Create a venv for Guyamoe in your home directory.
 ```
-virtualenv ~/guyamoe
+virtualenv ~/virenv
 ```
 
 2. Clone Guyamoe's source code into the venv.
 ```
-git clone https://github.com/appu1232/guyamoe ~/guyamoe/app
+git clone https://github.com/appu1232/guyamoe ~/virenv/app
 ```
 
 3. Activate the venv.
 ```
-cd ~/guyamoe/app && source ../bin/activate
+cd ~/virenv/app && source ../bin/activate
 ```
 
 4. Install Guyamoe's dependencies.
@@ -38,7 +38,7 @@ pip3 install -r requirements.txt
 
 5. Change the value of the `SECRET_KEY` variable to a randomly generated string.
 ```
-sed -i "s|\"o kawaii koto\"|\"$(openssl rand -base64 32)\"|" guyamoe/settings/base.py
+sed -i "s|\"o kiki kanri"|\"$(openssl rand -base64 32)\"|" siteproject/settings/base.py
 ```
 
 6. Generate the default assets for Guyamoe.
