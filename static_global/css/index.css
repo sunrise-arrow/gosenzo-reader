@@ -1120,9 +1120,7 @@ main a {
 }
 
 .page-series .side-cover .media {
-	border-top-left-radius: 3px;
 	overflow: hidden;
-	border-top-right-radius: 3px;
 	box-shadow: 0px 7px 17px -5px black;
 }
 

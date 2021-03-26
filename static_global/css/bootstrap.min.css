@@ -2114,7 +2114,7 @@ pre code {
     font-size: 0.9375rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #52575C;
+    color: #1e1f20;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
@@ -2694,7 +2694,7 @@ textarea.form-control.is-invalid {
 .btn {
     display: inline-block;
     font-weight: 400;
-    color: #aaa;
+    color: #161616;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -2721,7 +2721,7 @@ textarea.form-control.is-invalid {
 }
 
 .btn:hover {
-    color: #aaa;
+    color: rgb(100, 100, 100);
     text-decoration: none
 }
 
@@ -10937,7 +10937,6 @@ a.text-dark:focus {
 
 .btn {
     border-color: rgba(0, 0, 0, 0.6);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3)
 }
 
 .btn:not([disabled]):not(.disabled).active,
@@ -10952,7 +10951,7 @@ a.text-dark:focus {
 .btn:not([disabled]):not(.disabled):active,
 .btn:not([disabled]):not(.disabled):active:hover,
 .btn:not([disabled]):not(.disabled).active:hover {
-    border-color: rgba(0, 0, 0, 0.6)
+    border-color: rgba(134, 35, 91, 0.9);
 }
 
 .btn-primary {
