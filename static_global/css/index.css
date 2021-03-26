@@ -1290,6 +1290,8 @@ th.header-download {
 }
 .page-series .btn-group .btn.s {
 	background-color: #fff !important;
+	border-top: 0.5em #363636;
+	border-right: 0.5em #363636;
 	color: #161616;
 }
 .page-series .btn-group .btn:not(.s):hover {
