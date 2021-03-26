@@ -5095,7 +5095,6 @@ input[type="button"].btn-block {
     background-color: #32383e;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.6);
-    border-radius: 0.25rem
 }
 
 .card>hr {
@@ -6451,10 +6450,9 @@ a.close.disabled {
     flex-direction: column;
     width: 100%;
     pointer-events: auto;
-    background-color: #32383e;
+    background-color: #ffffff;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 0.3rem;
     outline: 0
 }
 
@@ -6521,7 +6519,7 @@ a.close.disabled {
     -ms-flex-pack: end;
     justify-content: flex-end;
     padding: 1rem;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.336);
     border-bottom-right-radius: 0.3rem;
     border-bottom-left-radius: 0.3rem
 }
