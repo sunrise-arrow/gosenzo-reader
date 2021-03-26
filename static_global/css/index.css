@@ -1284,7 +1284,8 @@ th.header-download {
 	padding: 0;
 	color: #242424;
 	background-color: #b8b8b8 !important;
-	border-top: 0.3em #535353;
+	border-top: 0.5em #363636;
+	border-right: 0.5em #363636;
 	text-shadow: none;
 }
 .page-series .btn-group .btn.s {
