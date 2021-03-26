@@ -3756,11 +3756,6 @@ input[type="button"].btn-block {
     width: auto
 }
 
-.btn-group>.btn:not(:first-child),
-.btn-group>.btn-group:not(:first-child) {
-    margin-left: -1px
-}
-
 .btn-group>.btn:not(:last-child):not(.dropdown-toggle),
 .btn-group>.btn-group:not(:last-child)>.btn {
     border-top-right-radius: 0;
