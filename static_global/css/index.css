@@ -1297,6 +1297,7 @@ th.header-download {
 }
 .page-series .btn-group .btn:not(.s):hover {
 	background-color: #dbdbdb !important;
+	border-left: 0.2em solid #6c1fc4;
 }
 .page-series .btn-group a {
 	display: flex;
