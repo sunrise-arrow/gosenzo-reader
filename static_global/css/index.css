@@ -1284,12 +1284,15 @@ th.header-download {
 	padding: 0;
 	color: #242424;
 	background-color: #b8b8b8 !important;
-	border-right: 0.2em solid #ffffff;
+	border-left: 0.2em solid #ffffff;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
 	text-shadow: none;
 }
 .page-series .btn-group .btn.s {
 	background-color: #fff !important;
-	border-right: 0.2em solid #6c1fc4;
+	border-left: 0.2em solid #6c1fc4;
 	color: #161616;
 }
 .page-series .btn-group .btn:not(.s):hover {
