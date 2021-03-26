@@ -1127,6 +1127,7 @@ main a {
 .page-series article {
 	padding-bottom: 1.5em;
 	padding: 1em 1.3em;
+	border-bottom: 0.2em solid #939393;
 }
 .page-series article h1 {
 	color: #161616;
@@ -1284,14 +1285,12 @@ th.header-download {
 	padding: 0;
 	color: #242424;
 	background-color: #b8b8b8 !important;
-	border-top: 0.5em #363636;
-	border-right: 0.5em #363636;
+	border-right: 0.2em solid #ffffff;
 	text-shadow: none;
 }
 .page-series .btn-group .btn.s {
 	background-color: #fff !important;
-	border-top: 0.5em #363636;
-	border-right: 0.5em #363636;
+	border-right: 0.2em solid #6c1fc4;
 	color: #161616;
 }
 .page-series .btn-group .btn:not(.s):hover {
