@@ -540,39 +540,34 @@ var reading_button = null;
 					{{ synopsis|safe|linebreaks }}
 				</article>
 			</div>
-		</div>
-	</div>
-</div>
-<div class="container-fluid page-series">
-	<div class="bs-docs-section clearfix mt-1">
-		<div class="row justify-content-center">		
-			<div class="btn-group" role="group">
-				{% if "detailed" in available_features %}
-				<button type="button" id="detailedMode" class="tag-display-mode-toggle btn"
-					onclick="listMode('detailed');">
-					Detailed
-				</button>
-				{% endif %}
-				{% if "compact" in available_features %}
-				<button type="button" id="compactMode" class="tag-display-mode-toggle btn"
-					onclick="listMode('compact');">
-					Compact
-				</button>
-				{% endif %}
-				{% if "volumeCovers" in available_features %}
-				<button type="button" id="volumeCoversMode" class="tag-display-mode-toggle btn"
-					onclick="listMode('volumeCovers')">
-					Volume Covers
-				</button>
-				{% endif %}
-				{% if "rss" in available_features %}
-				<a href="http://{{ root_domain }}/read/other/rss/{{ slug }}" target="_blank"><i
-						class="fa fa-rss"></i></a>
-				{% endif %}
-				{% if "admin" in available_features %}
-				<a href="#" onclick="loadGroups('{{ slug }}')" data-toggle="modal" data-target="#uploadModal"><i class="float-right fa fa-upload fa-lg" ></i></a>
-				{% endif %}
-			</div>
+			<div class="col-lg-8 col-md-7 col-sm-11 col-xs-12 series-content">
+				<div class="btn-group" role="group">
+					{% if "detailed" in available_features %}
+					<button type="button" id="detailedMode" class="tag-display-mode-toggle btn"
+						onclick="listMode('detailed');">
+						Detailed
+					</button>
+					{% endif %}
+					{% if "compact" in available_features %}
+					<button type="button" id="compactMode" class="tag-display-mode-toggle btn"
+						onclick="listMode('compact');">
+						Compact
+					</button>
+					{% endif %}
+					{% if "volumeCovers" in available_features %}
+					<button type="button" id="volumeCoversMode" class="tag-display-mode-toggle btn"
+						onclick="listMode('volumeCovers')">
+						Volume Covers
+					</button>
+					{% endif %}
+					{% if "rss" in available_features %}
+					<a href="http://{{ root_domain }}/read/other/rss/{{ slug }}" target="_blank"><i
+							class="fa fa-rss"></i></a>
+					{% endif %}
+					{% if "admin" in available_features %}
+					<a href="#" onclick="loadGroups('{{ slug }}')" data-toggle="modal" data-target="#uploadModal"><i class="float-right fa fa-upload fa-lg" ></i></a>
+					{% endif %}
+				</div>
 				{% if "compact" in available_features %}
 				<div id="compactView" class="d-none" style="font-size: 0.75rem;">
 					{% for volume, data in volume_list %}
@@ -652,6 +647,7 @@ var reading_button = null;
 				{% if "volumeCovers" in available_features %}
 				<div id="volumeCoversView" class="d-none"></div>
 				{% endif %}
+			</div>
 		</div>
 	</div>
 </div>
