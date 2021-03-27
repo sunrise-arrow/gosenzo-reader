@@ -3606,18 +3606,14 @@ function UI_About(o) {
 	UI.call(this, Object.assign(o, {
 		kind: ['About'].concat(o.kind || []),
 		html: `<div>
-			<img src="/static/img/Guya-moe.png">
-			<p class="muted">Version: v2.20.20200820</p>
+			<img src="/static/img/shamiko-moe.png">
+			<p class="muted">Version: v1</p>
 			<hr>
+			<p class="muted">Powered by</p>
+			<a href="https://github.com/appu1232/guyamoe" target="_blank"><div class="cubari" data-bind="cubari"><div></div></div></a>
 			<p>Design, UX: Algoinde</p>
 			<p>Reader code: Algoinde, funkyhippo, Einlion</p>
 			<p>Backend: appu</p>
-			<hr>
-			<a href="https://github.com/appu1232/guyamoe" target="_blank">Github</a>
-			<a href="https://discord.gg/4WPqwSY" target="_blank">Discord</a>
-			<hr>
-			<p class="muted">Powered by</p>
-			<div class="cubari" data-bind="cubari"><div></div></div>
 		</div>`
 	}));
 
