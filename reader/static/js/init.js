@@ -3606,6 +3606,7 @@ function UI_About(o) {
 	UI.call(this, Object.assign(o, {
 		kind: ['About'].concat(o.kind || []),
 		html: `<div>
+			<hr>
 			<p class="muted">Powered by</p>
 			<a href="https://github.com/appu1232/guyamoe" target="_blank"><div class="cubari" data-bind="cubari"><div></div></div></a>
 			<hr>
