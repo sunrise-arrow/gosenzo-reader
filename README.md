@@ -7,7 +7,7 @@ Retooling [Cubari](https://github.com/appu1232/guyamoe) for Machikado Mazoku
 
 # Cubari
 
-⚠ **Note:** The install instructions below will not result in a general purpose CMS due to the amount of hardcoded assets in siteproject.
+⚠ **Note:** The install instructions below will not result in a general purpose CMS due to the amount of hardcoded assets in gosenzo_reader.
 
 ## Prerequisites 
 - git
@@ -38,7 +38,7 @@ pip3 install -r requirements.txt
 
 5. Change the value of the `SECRET_KEY` variable to a randomly generated string.
 ```
-sed -i "s|\"o kiki kanri"|\"$(openssl rand -base64 32)\"|" siteproject/settings/base.py
+sed -i "s|\"o kiki kanri"|\"$(openssl rand -base64 32)\"|" gosenzo_reader/settings/base.py
 ```
 
 6. Generate the default assets for Guyamoe.

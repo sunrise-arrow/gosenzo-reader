@@ -19,9 +19,9 @@ docker-compose -f docker-compose.yml -f nginx/docker-compose.yml up
 
 Use this to create a superuser with the username `root` and password as `password`:
 ```bash
-docker run -it --rm --network="siteproject-intercontinental-highway" \
+docker run -it --rm --network="gosenzo_reader-intercontinental-highway" \
     -v $PWD/..:/shamiko -w="/shamiko" \
-    -v $PWD/settings.py:/shamiko/siteproject/settings.py \
+    -v $PWD/settings.py:/shamiko/gosenzo_reader/settings.py \
     $(docker build -q -f Dockerfile ..) \
     sh -c "echo \"from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('root', 'root@example.com', 'password')\" | python manage.py shell"
 ```

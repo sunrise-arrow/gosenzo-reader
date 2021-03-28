@@ -1,4 +1,4 @@
-from siteproject.settings.base import *
+from gosenzo_reader.settings.base import *
 
 ALLOWED_HOSTS = ["web", "localhost"]
 
@@ -12,7 +12,7 @@ CACHES = {
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "siteproject",
+        "NAME": "gosenzo_reader",
         "USER": "POSTGRES_USER",
         "PASSWORD": "POSTGRES_PASSWORD",
         "HOST": "postgres",

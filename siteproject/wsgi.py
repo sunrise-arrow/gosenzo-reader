@@ -1,5 +1,5 @@
 """
-WSGI config for siteproject project.
+WSGI config for gosenzo_reader project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -16,6 +16,6 @@ from django.core.wsgi import get_wsgi_application
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent
 sys.path.append(str(ROOT_DIR))
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "siteproject.settings.local")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gosenzo_reader.settings.local")
 
 application = get_wsgi_application()
