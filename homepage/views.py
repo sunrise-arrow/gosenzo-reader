@@ -144,4 +144,4 @@ def random(request):
 
 
 def handle404(request, exception):
-    return render(request, "homepage/404_shamiko.html", status=404)
+    return render(request, "homepage/how_cute_404.html", status=404)

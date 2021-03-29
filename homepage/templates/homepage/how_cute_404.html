@@ -4,7 +4,7 @@
 </style>
 <style>
 		body {
-				background: #ffffff;
+				background: #000000;
 		display: flex;
 		align-items: center;
 		align-content: center;
@@ -12,7 +12,7 @@
 		font-weight: 200;
 		}
 	content {
-		color: rgb(0, 0, 0);
+		color: white;
 		padding: 0 6rem 0 4rem;
 	}
 	content > p:first-child {
@@ -37,7 +37,7 @@
 	}
 	a {
 		display: block;
-		color: rgb(136, 7, 114);
+		color: red;
 		margin-top: 1rem;
 	}
 	img {
@@ -53,9 +53,10 @@
 
 	</head>
 	<body>
-			<img src="{% static 'img/image404.png' %}" />
+			<img src="{% static 'img/how_cute_404.png' %}" />
 			<content>
-				<p>ERROR<br> Gosenzo not found 
+				<p>You were trying to visit a page<br> that doesn't even exist?
+				<p>How cute.
 				<p>404
 				<p>NOT FOUND
 				<a href="/">Return to main page</a>
