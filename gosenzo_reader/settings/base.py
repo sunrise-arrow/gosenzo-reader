@@ -159,11 +159,11 @@ MAIL_DISCORD_WEBHOOK_TOKEN = os.environ.get("MAIL_DISCORD_WEBHOOK_TOKEN", "")
 BRANDING_NAME = "Shamiko.moe"
 BRANDING_DESCRIPTION = "A place to read the entirety of The Demon Girl Next Door."
 # Need to change BRANDING_IMAGE_URL
-BRANDING_IMAGE_URL = "https://i.imgur.com/jBhT5LV.png"
+BRANDING_IMAGE_URL = "https://i.imgur.com/XXZuqy7.png"
 
 HOME_BRANDING_NAME = "Read The Demon Girl Next Door | Shamiko.moe"
 HOME_BRANDING_DESCRIPTION = "Read The Demon Girl Next Door manga.."
 # Need to change HOME_BRANDING_IMAGE_URL
-HOME_BRANDING_IMAGE_URL = "https://i.imgur.com/jBhT5LV.png"
+HOME_BRANDING_IMAGE_URL = "https://i.imgur.com/XXZuqy7.png"
 
 IMAGE_PROXY_URL = "https://proxy.f-ck.me"
