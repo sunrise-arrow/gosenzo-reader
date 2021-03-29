@@ -15,7 +15,7 @@
 	<link rel="shortcut icon" sizes="128x128" type="image/png" href="{% static 'logo_small.png' %}{{ version_query }}" defer />
 	<link rel="icon" sizes="128x128" type="image/png" href="{% static 'logo_small.png' %}{{ version_query }}" />
 	<link rel="icon" sizes="512x512" type="image/png" href="{% static 'logo.png' %}{{ version_query }}" />
-	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'appleitouch-icon-180x180.png' %}{{ version_query }}" />
+	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'apple-touch-icon-180x180.png' %}{{ version_query }}" />
 	<!-- <link rel="apple-touch-icon" sizes="128x128" href="{% static 'safari-touch-128x128.png' %}{{ version_query }}" />
 	<link rel="apple-touch-icon" sizes="256x256" href="{% static 'safari-touch-256x256.png' %}{{ version_query }}" />
 	<link rel="apple-touch-icon" sizes="512x512" href="{% static 'safari-touch-512x512.png' %}{{ version_query }}" /> -->
@@ -43,6 +43,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{% firstof page_title brand.name %}" />
   <meta name="twitter:image" content="{{ brand.image_url }}" />
+  <meta name="og:title" content="{% firstof page_title brand.name %}" />
   <meta property="og:image" content="{{ brand.image_url }}">
   <meta property="og:url" content="{{ absolute_url }}">
   {% endblock %}
