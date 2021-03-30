@@ -9,4 +9,4 @@ python-memcached==1.59
 requests==2.22.0
 beautifulsoup4==4.8.2
 psycopg2==2.8.4
-python-dotenv==0.16.0
+django-dotenv==1.4.2
