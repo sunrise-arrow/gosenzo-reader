@@ -9,7 +9,7 @@ CANONICAL_ROOT_DOMAIN = dev_domain
 
 DEBUG = True
 
-ALLOWED_HOSTS = [dev_domain, "shamiko.moe", "www.shamiko.moe"]
+ALLOWED_HOSTS = [dev_domain, "shamiko.moe", "www.shamiko.moe", "localhost"]
 
 CANONICAL_SITE_NAME = dev_domain
 

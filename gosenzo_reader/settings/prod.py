@@ -23,7 +23,6 @@ ALLOWED_HOSTS = [
     'www.shamiko.moe',
     'shamiko.moe'
 ]
-# Remove '*' before full release 
 CANONICAL_SITE_NAME = "shamiko.moe"
 
 LOGGING = {

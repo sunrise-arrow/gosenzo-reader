@@ -7,7 +7,11 @@ CANONICAL_ROOT_DOMAIN = "localhost:8000"
 
 DEBUG = False
 
+#Don't use this setting on servers
+
 ALLOWED_HOSTS = [os.environ.get("ALLOWED_HOSTS", "localhost"), '*']
+
+
 
 CACHES = {
     "default": {
