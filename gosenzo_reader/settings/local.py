@@ -8,7 +8,6 @@ CANONICAL_ROOT_DOMAIN = "localhost:8000"
 DEBUG = False
 
 ALLOWED_HOSTS = [os.environ.get("ALLOWED_HOSTS", "localhost"), '*']
-# Remove wildcard before full release 
 
 CACHES = {
     "default": {

@@ -3,15 +3,13 @@ import os
 from .base import *
 
 
-dev_domain = os.environ.get("DEV_CANONICAL_ROOT_DOMAIN", "localhost:8000")
+dev_domain = os.environ.get("DEV_CANONICAL_ROOT_DOMAIN", "test.shamiko.moe")
 
-SECRET_KEY = os.environ.get("DEV_SECRET_KEY", "o kawaii koto")
 CANONICAL_ROOT_DOMAIN = dev_domain
 
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [dev_domain, '*']
-#Remove wildcard before release
+ALLOWED_HOSTS = [dev_domain, "shamiko.moe", "www.shamiko.moe"]
 
 CANONICAL_SITE_NAME = dev_domain
 

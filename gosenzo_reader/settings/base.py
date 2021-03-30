@@ -22,10 +22,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "kiki kanri")
 
 CANONICAL_ROOT_DOMAIN = "localhost:8000"
 
-DEBUG = False
-
 ALLOWED_HOSTS = ["localhost"]
-
 
 SITE_ID = 1
 
