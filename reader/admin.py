@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 from django.contrib import admin
 
 from .forms import ChapterForm, SeriesForm
-from .models import Chapter, Group, HitCount, Person, Series, Volume
+from .models import Chapter, Group, HitCount, Person, Series, Volume, ChapterText
 
 
 # Register your models here.
@@ -39,6 +39,7 @@ class GroupAdmin(admin.ModelAdmin):
 admin.site.register(Group, GroupAdmin)
 
 
+
 class SeriesAdmin(admin.ModelAdmin):
     form = SeriesForm
     list_display = ("name",)
@@ -69,6 +70,21 @@ class VolumeAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Volume, VolumeAdmin)
+
+class ChapterTextAdmin(admin.ModelAdmin):
+    search_fields = (
+        "chapter",
+        "page",
+        "text"
+    )
+
+    list_display = (
+        "chapter",
+        "page",
+        "text"
+    )
+
+admin.site.register(ChapterText, ChapterTextAdmin)
 
 
 class ChapterAdmin(admin.ModelAdmin):

@@ -1,6 +1,6 @@
 import os
 from datetime import datetime, timezone
-
+import json
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
 from django.db import models
@@ -177,3 +177,52 @@ class ChapterIndex(models.Model):
             "word",
             "series",
         )
+
+class ChapterText(models.Model):
+    chapter = models.CharField(max_length=20)
+    page = models.CharField(max_length=20)
+    text = models.CharField(max_length=2000)
+
+    def getChapter(self):
+        return self.chapter
+
+    def getPage(self):
+        return self.page
+
+    def getText(self):
+        return self.text
+
+    def save(self, *args, **kwargs):
+        # Replace unnecessary stuff 
+        self.text = self.text.replace(".", "").replace(",", "").replace("!", "").replace("?", "").replace('"', '')
+        words = self.text.split(" ")
+        for word in words:
+            if len(word) > 1:
+                word_objs = ChapterIndex.objects.filter(word=word)
+                # If word already exists
+                if word_objs:
+                    for word_obj in word_objs:
+                        # We do that cause db has string json
+                        dict_obj = json.loads(word_obj.chapter_and_pages)
+                        # Check if that page list for that chapter if empty, if not - we append that page to the existing list
+                        try:
+                            if float(self.page) not in dict_obj[self.chapter]:
+                                dict_obj[self.chapter].append(float(self.page))
+                                word_obj.chapter_and_pages = json.dumps(dict_obj)
+                                print(dict_obj[self.chapter])
+                        # If yes - we create a new list with that page
+                        except KeyError:
+                            dict_obj[self.chapter] = [float(self.page)]
+                            word_obj.chapter_and_pages = json.dumps(dict_obj)
+                        word_obj.save()
+                # If the word isn't in db we create a new index for that word
+                else:
+                    # Series is hard coded to Machikado mazoku
+                    dict_obj = {}
+                    dict_obj[self.chapter] = [float(self.page)]
+                    # We do that ugly replace cause json requires double quotes
+                    index = ChapterIndex.objects.create(word=word, chapter_and_pages=str(dict_obj).replace("'", '"'), series=Series.objects.get(slug="The-Demon-Girl-Next-Door"))
+                    index.save()
+
+        # Call the default save function to actually save it
+        super().save(*args, **kwargs)
