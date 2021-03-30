@@ -13,8 +13,12 @@ from pathlib import Path
 
 from django.core.wsgi import get_wsgi_application
 
+import dotenv
+
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent
 sys.path.append(str(ROOT_DIR))
+
+dotenv.read_dotenv(os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env'))
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gosenzo_reader.settings.dev")
 

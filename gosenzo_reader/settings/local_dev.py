@@ -7,9 +7,9 @@ dev_domain = os.environ.get("DEV_CANONICAL_ROOT_DOMAIN", "test.shamiko.moe")
 
 CANONICAL_ROOT_DOMAIN = dev_domain
 
-DEBUG = True
+DEBUG = os.getenv('DEBUG', 'True').lower() in ['true', '1']
 
-ALLOWED_HOSTS = [dev_domain, "shamiko.moe", "www.shamiko.moe", "localhost", *]
+ALLOWED_HOSTS = ["*", "localhost"]
 
 CANONICAL_SITE_NAME = dev_domain
 
