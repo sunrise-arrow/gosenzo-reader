@@ -10,7 +10,7 @@ __pycache__/
 .env
 .venv
 env/
-guyaa/
+gosenzo_reader_env/
 venv/
 ENV/
 env.bak/
