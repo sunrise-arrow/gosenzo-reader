@@ -233,9 +233,9 @@ function themeHandler() {
 	this.resetCustom = () => {
 		Settings.set('thm.reset', false);
 		if(Settings.get('thm.theme') === 'Custom') {
-			Settings.set('thm.primaryCol', '#3A3F44');
-			Settings.set('thm.readerBg', '#272B30');
-			Settings.set('thm.accentCol', '#B2DFFB');
+			Settings.set('thm.primaryCol', '#484542');
+			Settings.set('thm.readerBg', '#A49B97');
+			Settings.set('thm.accentCol', '#815E9A');
 			Settings.set('thm.textCol', '#EEEEEE');
 		}
 	}
