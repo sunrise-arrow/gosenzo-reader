@@ -4,13 +4,13 @@ from .base import *
 
 # This should not be used in servers!
 
-dev_domain = os.environ.get("DEV_CANONICAL_ROOT_DOMAIN", "test.shamiko.moe")
+dev_domain = os.environ.get("DEV_CANONICAL_ROOT_DOMAIN", "localhost:8000")
 
 CANONICAL_ROOT_DOMAIN = dev_domain
 
 DEBUG = os.getenv('DEBUG', 'True').lower() in ['true', '1']
 
-ALLOWED_HOSTS = ["*", "localhost"]
+ALLOWED_HOSTS = os.environ.get("DEV_DOMAIN_LIST", "localhost:8000").split(", ")
 
 CANONICAL_SITE_NAME = dev_domain
 
