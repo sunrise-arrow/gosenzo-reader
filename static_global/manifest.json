@@ -1,7 +1,7 @@
 {
   "name": "shamikomoe",
   "short_name": "shamikomoe",
-  "theme_color": "#282a36",
-  "background_color": "#282a36",
+  "theme_color": "#C24B86",
+  "background_color": "#CECECE",
   "display": "standalone"
 }
