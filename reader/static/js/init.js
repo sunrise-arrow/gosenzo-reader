@@ -163,7 +163,7 @@ function themeHandler() {
 		let reset = Settings.get('thm.reset');
 		let theme = Settings.get('thm.theme');
 		if(theme === 'Custom')	this.setTheme(Settings.get('thm.primaryCol'), Settings.get('thm.readerBg'), Settings.get('thm.accentCol'), Settings.get('thm.textCol'));
-		else if (theme === 'Metako')	this.setTheme('#484542', '#A49B97', '#CD93F6','#EEEEEE');
+		else if (theme === 'Metako')	this.setTheme('#484542', '#A49B97', '#815E9A','#EEEEEE');
 		else if (theme === 'Dark')	this.setTheme('#3a3f44', '#272b30', '#b2dffb','#eeeeee');
 		else if (theme === 'Reaper') this.setTheme('#272836', '#121223', '#487DE4', '#EEEEEE');
 		else if (theme === 'Zaibatsu') this.setTheme('#1D1D1D', '#000000', '#BA1F1F', '#EEEEEE');
