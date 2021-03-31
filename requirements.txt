@@ -3,10 +3,10 @@ discord.py==1.6.0
 Django==3.1.6
 django-extensions==2.1.9
 django-ratelimit==2.0.0
+django-dotenv==1.4.2
 Markdown==3.1.1
 Pillow==8.1.1
 python-memcached==1.59
 requests==2.22.0
 beautifulsoup4==4.8.2
 psycopg2==2.8.4
-django-dotenv==1.4.2
