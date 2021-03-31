@@ -10,7 +10,7 @@ CANONICAL_ROOT_DOMAIN = dev_domain
 
 DEBUG = os.getenv('DEBUG', 'True').lower() in ['true', '1']
 
-ALLOWED_HOSTS = os.environ.get("DEV_DOMAIN_LIST", "localhost:8000").split(", ")
+ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS_LIST", "localhost").split(", ")
 
 CANONICAL_SITE_NAME = dev_domain
 
