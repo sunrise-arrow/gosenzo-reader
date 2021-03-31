@@ -2,6 +2,7 @@ import os
 
 from .base import *
 
+# This should not be used in servers!
 
 dev_domain = os.environ.get("DEV_CANONICAL_ROOT_DOMAIN", "test.shamiko.moe")
 

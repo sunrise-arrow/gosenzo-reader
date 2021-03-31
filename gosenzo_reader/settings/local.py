@@ -2,16 +2,13 @@ import os
 
 from .base import *
 
+# This should not be used in servers!
 
 CANONICAL_ROOT_DOMAIN = "localhost:8000"
 
-DEBUG = False
-
-#Don't use this setting on servers
+DEBUG = os.getenv('DEBUG', 'True').lower() in ['true', '1']
 
 ALLOWED_HOSTS = [os.environ.get("ALLOWED_HOSTS", "localhost"), '*']
-
-
 
 CACHES = {
     "default": {

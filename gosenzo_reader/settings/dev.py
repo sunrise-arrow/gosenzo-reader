@@ -2,12 +2,13 @@ import os
 
 from .base import *
 
+# This should not in production!
 
 dev_domain = os.environ.get("DEV_CANONICAL_ROOT_DOMAIN", "test.shamiko.moe")
 
 CANONICAL_ROOT_DOMAIN = dev_domain
 
-DEBUG = True
+DEBUG = os.getenv('DEBUG', 'True').lower() in ['true', '1']
 
 ALLOWED_HOSTS = [dev_domain, "shamiko.moe", "www.shamiko.moe", "localhost"]
 
