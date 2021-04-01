@@ -3037,7 +3037,7 @@ input[type=range]::-ms-thumb {
 
 .ReaderNotice a {
 	color: var(--accentCol);
-	background: rgba(0, 0, 0, 0.9);
+	background: rgba(0, 0, 0, 0.7);
 	text-decoration: none;
 	font-size: 0.9em;
 	margin-top: 0.8em;
