@@ -3005,6 +3005,7 @@ input[type=range]::-ms-thumb {
   padding: 1rem;
   text-align: center;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 /* TOFIX: done too fast, check impl */
