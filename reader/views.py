@@ -207,6 +207,6 @@ def reader(request, series_slug, chapter, page=None):
             data[chapter]["indexed"] = data["indexed"]
             return render(request, "reader/reader.html", data[chapter])
         else:
-            return render(request, "homepage/how_cute_404.html", status=404)
+            return render(request, "homepage/404_page.html", status=404)
     else:
         return redirect("reader-manga-chapter", series_slug, chapter, "1")
