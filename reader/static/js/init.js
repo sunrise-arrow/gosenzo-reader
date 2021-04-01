@@ -218,7 +218,7 @@ function themeHandler() {
 		if(luma > 100) {
 			document.documentElement.style.setProperty("--chapterDummyBackground", "rgba(0,0,0,0.4)");
 		} else {
-			document.documentElement.style.setProperty("--chapterDummyBackground", "rgba(0,0,0,0)");
+			document.documentElement.style.setProperty("--chapterDummyBackground", "rgba(0,0,0)");
 		}
 
 		[r, g, b] = hexToRgb(reader);
