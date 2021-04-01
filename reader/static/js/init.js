@@ -2469,11 +2469,11 @@ function UI_ReaderNoticeWrapper(o) {
 			release = Reader.SCP.chapterObject.release_date[Object.keys(Reader.SCP.chapterObject.release_date)[0]] + 7 * 24 * 60 * 60;
 var notice = new UI_Dummy({
 		html: ('<div class="ReaderNotice">' +
-			(Reader.current.next_release_html || `<h2>You're caught up!</h2>
+			(Reader.current.next_release_html || `<div class="Box"><h2>You're caught up!</h2>
 			<p>Next chapter should come out in about:</p>
 			<div class="timer">$countdown</div>
 			<a href="https://discord.gg/e7np2qR" target="_blank">Discuss the chapter in our server!</a>
-			<a href="https://sevenseasentertainment.com/series/the-demon-girl-next-door/" target="_blank">Buy the official volumes</a>`
+			<a href="https://sevenseasentertainment.com/series/the-demon-girl-next-door/" target="_blank">Buy the official volumes</a></div>`
 		) + '</div>').replace('$countdown', countdown(release))
 	});
 	notice.parentWrapper = this;
