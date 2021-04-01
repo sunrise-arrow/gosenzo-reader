@@ -3015,7 +3015,7 @@ input[type=range]::-ms-thumb {
 }
 
 .ReaderNotice p {
-  color: #999;
+  opacity: 0.93;
 }
 
 .ReaderNotice .timer {
@@ -3037,6 +3037,7 @@ input[type=range]::-ms-thumb {
 
 .ReaderNotice a {
 	color: var(--accentCol);
+	background: rgba(0, 0, 0, 0.5);
 	text-decoration: none;
 	font-size: 0.9em;
 	margin-top: 0.8em;

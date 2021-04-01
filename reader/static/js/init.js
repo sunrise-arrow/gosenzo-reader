@@ -2471,9 +2471,8 @@ var notice = new UI_Dummy({
 			(Reader.current.next_release_html || `<h2>You're caught up!</h2>
 			<p>Next chapter should come out in about:</p>
 			<div class="timer">$countdown</div>
-			<a href="https://discord.gg/BDpCRUJ" target="_blank">Discuss the chapter in the Kaguya Discord</a>
-			<a href="https://twitter.com/GuyaMoe" target="_blank">Follow our Twitter for updates</a>
-			<a href="https://www.viz.com/read/manga/kaguya-sama-love-is-war/all" target="_blank">Buy the official volumes</a>`
+			<a href="https://discord.gg/e7np2qR" target="_blank">Discuss the chapter in our server!/a>
+			<a href="https://sevenseasentertainment.com/series/the-demon-girl-next-door/" target="_blank">Buy the official volumes</a>`
 		) + '</div>').replace('$countdown', countdown(release))
 	});
 	notice.parentWrapper = this;
