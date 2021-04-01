@@ -2471,7 +2471,7 @@ var notice = new UI_Dummy({
 			(Reader.current.next_release_html || `<h2>You're caught up!</h2>
 			<p>Next chapter should come out in about:</p>
 			<div class="timer">$countdown</div>
-			<a href="https://discord.gg/e7np2qR" target="_blank">Discuss the chapter in our server!/a>
+			<a href="https://discord.gg/e7np2qR" target="_blank">Discuss the chapter in our server!</a>
 			<a href="https://sevenseasentertainment.com/series/the-demon-girl-next-door/" target="_blank">Buy the official volumes</a>`
 		) + '</div>').replace('$countdown', countdown(release))
 	});
