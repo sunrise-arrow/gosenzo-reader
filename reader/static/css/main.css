@@ -3011,7 +3011,8 @@ input[type=range]::-ms-thumb {
 
 .ReaderNotice .Box {
 	display: block;
-	background: var(--readerBg);
+	background: var(--sidebarCol);
+	padding: 0.7em;
 }
 
 .ReaderNotice h2 {
