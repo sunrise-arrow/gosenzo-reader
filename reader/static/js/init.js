@@ -188,6 +188,9 @@ function themeHandler() {
 		[r, g, b] = hexToRgb(sidebar);
 		luma = ((r*299)+(g*587)+(b*114))/1000;
 
+		[rr, gg, bb]
+		luma_next_chapter_dummy = ((rr*299)+(gg*587)+(bb*114))/1000;
+
 		document.documentElement.style.setProperty("--accentSelectedInvert", (luma < 160?'#444444':'#cccccc')); // Play with 160 there if you want.
 		if(luma > 100) { //Tweaks if theme is light
 			document.documentElement.style.setProperty("--borderColor", "rgba(0,0,0,0.2)");
@@ -197,6 +200,12 @@ function themeHandler() {
 			document.documentElement.style.setProperty("--borderColor", "rgba(0,0,0,0.7)");
 			document.documentElement.style.setProperty("--blackLight", "rgba(0,0,0,0.2)");
 			document.documentElement.style.setProperty("--sidebarColFocus", colManipulate(sidebar, -27));
+		}
+
+		if(luma_next_chapter_dummy > 100) {
+			document.documentElement.style.setProperty("--chapterDummyBackground", "rgba(0,0,0,0.4)");
+		} else {
+			document.documentElement.style.setProperty("--chapterDummyBackground", "rgba(0,0,0,0)");
 		}
 		[r, g, b] = hexToRgb(sidebar)
 		let [rt, gt, bt] = hexToRgb(text)

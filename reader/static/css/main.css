@@ -3005,6 +3005,7 @@ input[type=range]::-ms-thumb {
   padding: 1rem;
   text-align: center;
   box-sizing: border-box;
+  background: var(--chapterDummyBackground)
 }
 
 /* TOFIX: done too fast, check impl */
