@@ -3005,7 +3005,6 @@ input[type=range]::-ms-thumb {
   padding: 1rem;
   text-align: center;
   box-sizing: border-box;
-  cursor: pointer;
 }
 
 /* TOFIX: done too fast, check impl */
@@ -3038,7 +3037,7 @@ input[type=range]::-ms-thumb {
 
 .ReaderNotice a {
 	color: var(--accentCol);
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.9);
 	text-decoration: none;
 	font-size: 0.9em;
 	margin-top: 0.8em;
