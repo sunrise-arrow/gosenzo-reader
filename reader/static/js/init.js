@@ -215,10 +215,13 @@ function themeHandler() {
 			Tooltippy.reset();
 		}
 
+		[r, g, b] = hexToRgb(text)
+		luma = ((r*299)+(g*587)+(b*114))/1000;
+
 		if(luma > 100) {
 			document.documentElement.style.setProperty("--chapterDummyBackground", "rgba(0,0,0,0.4)");
 		} else {
-			document.documentElement.style.setProperty("--chapterDummyBackground", "rgba(0,0,0)");
+			document.documentElement.style.setProperty("--chapterDummyBackground", "rgba(0,0,0,0)");
 		}
 
 		[r, g, b] = hexToRgb(reader);
